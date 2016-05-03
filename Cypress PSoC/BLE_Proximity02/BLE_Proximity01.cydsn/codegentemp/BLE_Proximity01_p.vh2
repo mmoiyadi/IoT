@@ -1,5 +1,5 @@
 -- Project:   BLE_Proximity01
--- Generated: 04/29/2016 16:25:08
+-- Generated: 05/02/2016 17:14:13
 -- PSoC Creator  3.3 CP2
 
 ENTITY BLE_Proximity01 IS

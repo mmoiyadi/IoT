@@ -44,6 +44,7 @@
 #include "CYBLE_Stack.h"
 #include "CYBLE_eventHandler.h"
 #include "CYBLE_custom.h"
+#include "CYBLE_uds.h"
 #include "Advertising_LED.h"
 #include "Advertising_LED_aliases.h"
 #include "SW2_Interrupt.h"

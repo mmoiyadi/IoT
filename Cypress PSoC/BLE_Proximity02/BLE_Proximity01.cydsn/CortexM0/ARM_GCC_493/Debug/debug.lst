@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 1
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccxMUfIQ.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 1
   30:.\debug.c     ****     STDERR_HANDLE
   31:.\debug.c     **** };
   32:.\debug.c     **** 
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 2
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccxMUfIQ.s 			page 2
 
 
   33:.\debug.c     **** FILE __stdin = {STDIN_HANDLE};
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 1
   87:.\debug.c     **** /* For GCC compiler revise _write() function for printf functionality */
   88:.\debug.c     **** int _write(int file, char *ptr, int len)
   89:.\debug.c     **** {
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 3
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccxMUfIQ.s 			page 3
 
 
   26              		.loc 1 89 0
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 1
   70              	.LFE37:
   71              		.size	_write, .-_write
   72              		.text
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 4
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccxMUfIQ.s 			page 4
 
 
   73              	.Letext0:
@@ -190,17 +190,17 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 1
   79 0006 00000000 		.4byte	.Ldebug_abbrev0
   80 000a 04       		.byte	0x4
   81 000b 01       		.uleb128 0x1
-  82 000c BF000000 		.4byte	.LASF15
+  82 000c 12010000 		.4byte	.LASF15
   83 0010 01       		.byte	0x1
   84 0011 22000000 		.4byte	.LASF16
-  85 0015 56010000 		.4byte	.LASF17
+  85 0015 6F000000 		.4byte	.LASF17
   86 0019 00000000 		.4byte	.Ldebug_ranges0+0
   87 001d 00000000 		.4byte	0
   88 0021 00000000 		.4byte	.Ldebug_line0
   89 0025 02       		.uleb128 0x2
   90 0026 01       		.byte	0x1
   91 0027 06       		.byte	0x6
-  92 0028 97000000 		.4byte	.LASF0
+  92 0028 E1000000 		.4byte	.LASF0
   93 002c 02       		.uleb128 0x2
   94 002d 01       		.byte	0x1
   95 002e 08       		.byte	0x8
@@ -208,15 +208,15 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 1
   97 0033 02       		.uleb128 0x2
   98 0034 02       		.byte	0x2
   99 0035 05       		.byte	0x5
- 100 0036 B5000000 		.4byte	.LASF2
+ 100 0036 FF000000 		.4byte	.LASF2
  101 003a 02       		.uleb128 0x2
  102 003b 02       		.byte	0x2
  103 003c 07       		.byte	0x7
- 104 003d 84000000 		.4byte	.LASF3
+ 104 003d CE000000 		.4byte	.LASF3
  105 0041 02       		.uleb128 0x2
  106 0042 04       		.byte	0x4
  107 0043 05       		.byte	0x5
- 108 0044 6F000000 		.4byte	.LASF4
+ 108 0044 B9000000 		.4byte	.LASF4
  109 0048 02       		.uleb128 0x2
  110 0049 04       		.byte	0x4
  111 004a 07       		.byte	0x7
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 1
  127 0066 07       		.byte	0x7
  128 0067 15000000 		.4byte	.LASF8
  129 006b 04       		.uleb128 0x4
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 5
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccxMUfIQ.s 			page 5
 
 
  130 006c 0E000000 		.4byte	.LASF18
@@ -248,11 +248,11 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 1
  134 0077 02       		.uleb128 0x2
  135 0078 04       		.byte	0x4
  136 0079 04       		.byte	0x4
- 137 007a AF000000 		.4byte	.LASF9
+ 137 007a F9000000 		.4byte	.LASF9
  138 007e 02       		.uleb128 0x2
  139 007f 08       		.byte	0x8
  140 0080 04       		.byte	0x4
- 141 0081 7D000000 		.4byte	.LASF10
+ 141 0081 C7000000 		.4byte	.LASF10
  142 0085 02       		.uleb128 0x2
  143 0086 01       		.byte	0x1
  144 0087 08       		.byte	0x8
@@ -260,14 +260,14 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 1
  146 008c 02       		.uleb128 0x2
  147 008d 04       		.byte	0x4
  148 008e 07       		.byte	0x7
- 149 008f 4D010000 		.4byte	.LASF12
+ 149 008f 09010000 		.4byte	.LASF12
  150 0093 05       		.uleb128 0x5
  151 0094 04       		.byte	0x4
  152 0095 85000000 		.4byte	0x85
  153 0099 02       		.uleb128 0x2
  154 009a 08       		.byte	0x8
  155 009b 04       		.byte	0x4
- 156 009c A3000000 		.4byte	.LASF13
+ 156 009c ED000000 		.4byte	.LASF13
  157 00a0 06       		.uleb128 0x6
  158 00a1 55000000 		.4byte	.LASF19
  159 00a5 01       		.byte	0x1
@@ -278,7 +278,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 1
  164 00b3 01       		.uleb128 0x1
  165 00b4 9C       		.byte	0x9c
  166 00b5 07       		.uleb128 0x7
- 167 00b6 78000000 		.4byte	.LASF14
+ 167 00b6 C2000000 		.4byte	.LASF14
  168 00ba 01       		.byte	0x1
  169 00bb 58       		.byte	0x58
  170 00bc 5D000000 		.4byte	0x5d
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 1
  184 00d6 01       		.byte	0x1
  185 00d7 58       		.byte	0x58
  186 00d8 5D000000 		.4byte	0x5d
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 6
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccxMUfIQ.s 			page 6
 
 
  187 00dc 02       		.uleb128 0x2
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 1
  241 0027 00       		.byte	0
  242 0028 00       		.byte	0
  243 0029 04       		.uleb128 0x4
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 7
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccxMUfIQ.s 			page 7
 
 
  244 002a 16       		.uleb128 0x16
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 1
  298 0061 0B       		.uleb128 0xb
  299 0062 49       		.uleb128 0x49
  300 0063 13       		.uleb128 0x13
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 8
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccxMUfIQ.s 			page 8
 
 
  301 0064 02       		.uleb128 0x2
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 1
  355              	.Ldebug_line0:
  356 0000 6E000000 		.section	.debug_str,"MS",%progbits,1
  356      02004400 
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 9
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccxMUfIQ.s 			page 9
 
 
  356      00000201 
@@ -524,67 +524,69 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 1
  373              	.LASF11:
  374 006a 63686172 		.ascii	"char\000"
  374      00
- 375              	.LASF4:
- 376 006f 6C6F6E67 		.ascii	"long int\000"
- 376      20696E74 
- 376      00
- 377              	.LASF14:
- 378 0078 66696C65 		.ascii	"file\000"
- 378      00
- 379              	.LASF10:
- 380 007d 646F7562 		.ascii	"double\000"
- 380      6C6500
- 381              	.LASF3:
- 382 0084 73686F72 		.ascii	"short unsigned int\000"
- 382      7420756E 
- 382      7369676E 
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccSGH1yD.s 			page 10
+ 375              	.LASF17:
+ 376 006f 443A5C49 		.ascii	"D:\\IoT\\ProximityEvents\\Cypress PSoC\\BLE_Proximi"
+ 376      6F545C50 
+ 376      726F7869 
+ 376      6D697479 
+ 376      4576656E 
+ 377 009e 74793032 		.ascii	"ty02\\BLE_Proximity01.cydsn\000"
+ 377      5C424C45 
+ 377      5F50726F 
+ 377      78696D69 
+ 377      74793031 
+ 378              	.LASF4:
+ 379 00b9 6C6F6E67 		.ascii	"long int\000"
+ 379      20696E74 
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccxMUfIQ.s 			page 10
 
 
- 382      65642069 
- 382      6E7400
- 383              	.LASF0:
- 384 0097 7369676E 		.ascii	"signed char\000"
- 384      65642063 
- 384      68617200 
- 385              	.LASF13:
- 386 00a3 6C6F6E67 		.ascii	"long double\000"
- 386      20646F75 
- 386      626C6500 
- 387              	.LASF9:
- 388 00af 666C6F61 		.ascii	"float\000"
- 388      7400
- 389              	.LASF2:
- 390 00b5 73686F72 		.ascii	"short int\000"
- 390      7420696E 
- 390      7400
- 391              	.LASF15:
- 392 00bf 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
- 392      4320342E 
- 392      392E3320 
- 392      32303135 
- 392      30333033 
- 393 00f2 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
- 393      20726576 
- 393      6973696F 
- 393      6E203232 
- 393      31323230 
- 394 0125 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 394      66756E63 
- 394      74696F6E 
- 394      2D736563 
- 394      74696F6E 
- 395              	.LASF12:
- 396 014d 73697A65 		.ascii	"sizetype\000"
- 396      74797065 
- 396      00
- 397              	.LASF17:
- 398 0156 443A5C49 		.ascii	"D:\\IoT\\PSoC Creator\\BLE_Proximity02\\BLE_Proximi"
- 398      6F545C50 
- 398      536F4320 
- 398      43726561 
- 398      746F725C 
- 399 0185 74793031 		.ascii	"ty01.cydsn\000"
- 399      2E637964 
- 399      736E00
+ 379      00
+ 380              	.LASF14:
+ 381 00c2 66696C65 		.ascii	"file\000"
+ 381      00
+ 382              	.LASF10:
+ 383 00c7 646F7562 		.ascii	"double\000"
+ 383      6C6500
+ 384              	.LASF3:
+ 385 00ce 73686F72 		.ascii	"short unsigned int\000"
+ 385      7420756E 
+ 385      7369676E 
+ 385      65642069 
+ 385      6E7400
+ 386              	.LASF0:
+ 387 00e1 7369676E 		.ascii	"signed char\000"
+ 387      65642063 
+ 387      68617200 
+ 388              	.LASF13:
+ 389 00ed 6C6F6E67 		.ascii	"long double\000"
+ 389      20646F75 
+ 389      626C6500 
+ 390              	.LASF9:
+ 391 00f9 666C6F61 		.ascii	"float\000"
+ 391      7400
+ 392              	.LASF2:
+ 393 00ff 73686F72 		.ascii	"short int\000"
+ 393      7420696E 
+ 393      7400
+ 394              	.LASF12:
+ 395 0109 73697A65 		.ascii	"sizetype\000"
+ 395      74797065 
+ 395      00
+ 396              	.LASF15:
+ 397 0112 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 397      4320342E 
+ 397      392E3320 
+ 397      32303135 
+ 397      30333033 
+ 398 0145 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 398      20726576 
+ 398      6973696F 
+ 398      6E203232 
+ 398      31323230 
+ 399 0178 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 399      66756E63 
+ 399      74696F6E 
+ 399      2D736563 
+ 399      74696F6E 
  400              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br

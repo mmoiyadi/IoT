@@ -157,6 +157,7 @@ void AppCallBack(uint32 event, void *eventParam)
         /* Enter discoverable mode so that remote Client could find the device. */
         apiResult = CyBle_GappStartAdvertisement(CYBLE_ADVERTISING_FAST);
         connectionHandle.bdHandle = 0u;
+        llsAlertTOCounter = 0;
         if(apiResult != CYBLE_ERROR_OK)
         {
             DBG_PRINTF("StartAdvertisement API Error: %d\r\n", apiResult);
@@ -323,7 +324,7 @@ CY_ISR(Timer_Interrupt)
                 alertLevel = CYBLE_NO_ALERT;
                 
                 /* Clear alert timeout */
-                llsAlertTOCounter = 0u;
+                //llsAlertTOCounter = 0u;
             }
         }
         /* Clear interrupt request */
@@ -355,7 +356,7 @@ void HandleLeds(void)
     if(CyBle_GetState() == CYBLE_STATE_DISCONNECTED)
     {
         /* ... turn on disconnect indication LED and turn off rest of the LEDs. */
-        Disconnect_LED_Write(LED_ON);
+        Disconnect_LED_Write(LED_OFF);
         Advertising_LED_Write(LED_OFF);
         Alert_LED_Write(LED_OFF);
     }
@@ -371,9 +372,9 @@ void HandleLeds(void)
     else
     {
         /* ... turn off all LEDs. */
-        Disconnect_LED_Write(LED_OFF);
+        Disconnect_LED_Write(LED_ON);
         Advertising_LED_Write(LED_OFF);
-        Alert_LED_Write(LED_ON);
+        Alert_LED_Write(LED_OFF);
 //        if(segLcdCommand == 1)
 //        {
 //           Alert_LED_Write(LED_ON);
@@ -420,18 +421,18 @@ void HandleLeds(void)
                 DBG_PRINTF("Device started alerting with \"High Alert\"\r\n");
                 displayAlertMessage = NO;
             }
-
+            printf("Setting alert\r\n");
             alertLedState = LED_ON;
         }
         /* In case of "No Alert" turn alert LED off */
         else
         {
             displayAlertMessage = YES;
-
+            printf("Resetting alert\r\n");
             alertLedState = LED_OFF;
         }
 
-        if((advertisingIsOn != 0u) && (llsAlertTOCounter == 0u))
+        if((advertisingIsOn != 0u) /*&& (llsAlertTOCounter == 0u)*/)
         {
             /* ... and blink advertisement indication LED. */
             /*if(advBlinkDelayCount == BLINK_DELAY)
@@ -451,12 +452,15 @@ void HandleLeds(void)
 
             Advertising_LED_Write(advLedState);*/
             Advertising_LED_Write(LED_ON);
+            Alert_LED_Write(LED_OFF);
+            Disconnect_LED_Write(LED_OFF);
         }
         else
         {
             Advertising_LED_Write(LED_OFF);
         }
-        
+        ///printf("llsAlertTOCounter: %x\r\n", llsAlertTOCounter);
+        printf("Writing alert value as %d\r\n",alertLedState);
         Alert_LED_Write(alertLedState);
     }
 }
@@ -623,7 +627,8 @@ int main()
 
         /* To achieve low power in the device */
         LowPowerImplementation();
-
+        printf("llsAlertTOCounter: %x\r\n", llsAlertTOCounter);
+        //DBG_PRINTF("llsAlertTOCounter: %x\r\n", llsAlertTOCounter);
         if((CyBle_GetState() != CYBLE_STATE_CONNECTED) && (CyBle_GetState() != CYBLE_STATE_ADVERTISING))
         {
             if(buttonState == BUTTON_IS_PRESSED)
