@@ -21,24 +21,24 @@ void loop() {
   // put your main code here, to run repeatedly:
   //lcd.print("printing text");
 
-  delay(250);
+  delay(500);
   lcd.clear();
-  delay(250);
-  if(digitalRead(11) == HIGH)
+  delay(500);
+  if(digitalRead(13) == LOW)
   {
-    lcd.print("Advertising...");
+    lcd.print("Disconnected :(");
   }
   else
   {
-    if(digitalRead(12) == HIGH)
+    if(digitalRead(11) == LOW)
     {
-      lcd.print("Connected :)");
+      lcd.print("Advertising...");
     }
     else
     {
-      if(digitalRead(13) == HIGH)
+      if(digitalRead(12) == LOW)
       {
-        lcd.print("Disconnected :(");
+        lcd.print("Connected :)");
       }
     }
   }
