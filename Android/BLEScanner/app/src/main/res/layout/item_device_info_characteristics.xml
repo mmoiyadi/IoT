@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id="@+id/device_info_tv_characteristic_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:paddingTop="6dp"
+        android:textColor="@color/text_color"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="checkingsdsdksldklskdlskjdlajksdlasjlajsdl"/>
+
+    <TextView
+        android:id="@+id/device_info_tv_characteristic_uuid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/device_info_tv_characteristic_name"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingLeft="16dp"
+        android:paddingTop="4dp"
+        android:textColor="@color/text_color"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        tools:text="checkingsdsdksldklskdlskjdlajksdlasjlajsdl"/>
+
+    <TextView
+        android:id="@+id/device_info_tv_characteristic_permissions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/device_info_tv_characteristic_uuid"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingLeft="16dp"
+        android:paddingTop="4dp"
+        android:textColor="@color/text_color"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        tools:text="checkingsdsdksldklskdlskjdlajksdlasjlajsdl"/>
+
+    <TextView
+        android:id="@+id/device_info_tv_characteristic_write_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/device_info_tv_characteristic_permissions"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingLeft="16dp"
+        android:paddingTop="4dp"
+        android:textColor="@color/text_color"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        tools:text="checkingsdsdksldklskdlskjdlajksdlasjlajsdl"/>
+
+    <TextView
+        android:id="@+id/device_info_tv_characteristic_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/device_info_tv_characteristic_write_type"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingLeft="16dp"
+        android:paddingTop="4dp"
+        android:textColor="@color/text_color"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        tools:text="checkingsdsdksldklskdlskjdlajksdlasjlajsdl"/>
+
+    <TextView
+        android:id="@+id/device_info_tv_characteristic_properties"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/device_info_tv_characteristic_value"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingLeft="16dp"
+        android:paddingTop="4dp"
+        android:textColor="@color/text_color"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        tools:text="checkingsdsdksldklskdlskjdlajksdlasjlajsdl"/>
+
+    <LinearLayout
+        android:id="@+id/device_info_layout_characteristic_properties_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/device_info_tv_characteristic_properties"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp">
+
+        <Button
+            android:id="@+id/device_info_btn_characteristic_read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:text="Read"/>
+
+        <Button
+            android:id="@+id/device_info_btn_characteristic_write"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:text="Write"/>
+
+        <Button
+            android:id="@+id/device_info_btn_characteristic_notify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:text="Notify"/>
+    </LinearLayout>
+
+</RelativeLayout>
