@@ -25,7 +25,7 @@
 #define ADVERTISING                         (1u)
 #define CONNECTED                           (2u)
 
-#define ALERT_TO                            (20u)
+#define ALERT_TO                            (5u)
 #define BLINK_DELAY                         (90u)
 #define ALERT_BLINK_DELAY                   (20u)
 
