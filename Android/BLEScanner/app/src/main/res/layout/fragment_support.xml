@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.talentica.blescanner.home.Support">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="#22FF4081"
+        android:gravity="center"
+        android:padding="@dimen/error_message_padding"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textSize="@dimen/error_message_text_size"
+        tools:text="@string/error_no_bluetooth"/>
+
+</FrameLayout>
