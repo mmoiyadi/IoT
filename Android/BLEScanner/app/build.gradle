@@ -9,7 +9,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 23
         versionCode 1
-        versionName "1.0"
+        versionName "Phase_1"
         vectorDrawables.useSupportLibrary = true
     }
 
@@ -26,6 +26,17 @@ android {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.release
+            applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    project.ext { appName = 'BLEScanner' }
+                    def formattedDate = new Date().format('yyyyMMMddHHmmss')
+                    def newName = output.outputFile.name
+                    newName = newName.replace("app-", "$project.ext.appName")
+                    newName = newName.replace("release", "_release_" + defaultConfig.versionName)
+                    //noinspection GroovyAssignabilityCheck
+                    output.outputFile = new File("D:\\SmartLock\\IoT\\Android\\BLEScanner\\apk", newName)
+                }
+            }
         }
     }
 }
