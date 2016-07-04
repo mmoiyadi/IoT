@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccW4Wf0d.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
   30:.\Generated_Source\PSoC4/Advertising_LED.c ****         #define Advertising_LED_SetP4PinDriveMode(shift, mode)  \
   31:.\Generated_Source\PSoC4/Advertising_LED.c ****         do { \
   32:.\Generated_Source\PSoC4/Advertising_LED.c ****             Advertising_LED_USBIO_CTRL_REG = (Advertising_LED_USBIO_CTRL_REG & \
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 2
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccW4Wf0d.s 			page 2
 
 
   33:.\Generated_Source\PSoC4/Advertising_LED.c ****                                     (uint32)(~(uint32)(Advertising_LED_DRIVE_MODE_IND_MASK << \
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
   74:.\Generated_Source\PSoC4/Advertising_LED.c **** 		Advertising_LED_SetP4PinDriveMode(Advertising_LED__0__SHIFT, mode);
   39              		.loc 1 74 0
   40 000c 064B     		ldr	r3, .L2
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 3
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccW4Wf0d.s 			page 3
 
 
   41 000e 064A     		ldr	r2, .L2
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
   99:.\Generated_Source\PSoC4/Advertising_LED.c **** *
  100:.\Generated_Source\PSoC4/Advertising_LED.c **** * \sideeffect
  101:.\Generated_Source\PSoC4/Advertising_LED.c **** *  If you use read-modify-write operations that are not atomic; the Interrupt 
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 4
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccW4Wf0d.s 			page 4
 
 
  102:.\Generated_Source\PSoC4/Advertising_LED.c **** *  Service Routines (ISR) can cause corruption of this function. An ISR that 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
  111 003c BA18     		add	r2, r7, r2
  112 003e 1278     		ldrb	r2, [r2]
  113 0040 1A60     		str	r2, [r3]
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 5
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccW4Wf0d.s 			page 5
 
 
  116:.\Generated_Source\PSoC4/Advertising_LED.c **** }
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
  145 0008 4022     		mov	r2, #64
  146 000a 1340     		and	r3, r2
  147 000c 9B09     		lsr	r3, r3, #6
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 6
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccW4Wf0d.s 			page 6
 
 
  148 000e DBB2     		uxtb	r3, r3
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
  175 0002 00AF     		add	r7, sp, #0
  176              		.cfi_def_cfa_register 7
  166:.\Generated_Source\PSoC4/Advertising_LED.c ****     return (uint8)((Advertising_LED_DR & Advertising_LED_MASK) >> Advertising_LED_SHIFT);
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 7
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccW4Wf0d.s 			page 7
 
 
  177              		.loc 1 166 0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
  194:.\Generated_Source\PSoC4/Advertising_LED.c **** *
  195:.\Generated_Source\PSoC4/Advertising_LED.c **** * \return 
  196:.\Generated_Source\PSoC4/Advertising_LED.c **** *  None
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 8
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccW4Wf0d.s 			page 8
 
 
  197:.\Generated_Source\PSoC4/Advertising_LED.c **** *  
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
  241 0036 BD46     		mov	sp, r7
  242 0038 04B0     		add	sp, sp, #16
  243              		@ sp needed
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 9
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccW4Wf0d.s 			page 9
 
 
  244 003a 80BD     		pop	{r7, pc}
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
  273 000a DAB2     		uxtb	r2, r3
  274 000c FB1D     		add	r3, r7, #7
  275 000e 4021     		mov	r1, #64
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 10
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccW4Wf0d.s 			page 10
 
 
  276 0010 0A40     		and	r2, r1
@@ -581,15 +581,15 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
  310 000b 01       		.uleb128 0x1
  311 000c 89000000 		.4byte	.LASF28
  312 0010 01       		.byte	0x1
- 313 0011 19020000 		.4byte	.LASF29
- 314 0015 9B010000 		.4byte	.LASF30
+ 313 0011 29020000 		.4byte	.LASF29
+ 314 0015 B4010000 		.4byte	.LASF30
  315 0019 00000000 		.4byte	.Ldebug_ranges0+0
  316 001d 00000000 		.4byte	0
  317 0021 00000000 		.4byte	.Ldebug_line0
  318 0025 02       		.uleb128 0x2
  319 0026 01       		.byte	0x1
  320 0027 06       		.byte	0x6
- 321 0028 0D020000 		.4byte	.LASF0
+ 321 0028 1D020000 		.4byte	.LASF0
  322 002c 02       		.uleb128 0x2
  323 002d 01       		.byte	0x1
  324 002e 08       		.byte	0x8
@@ -597,8 +597,8 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
  326 0033 02       		.uleb128 0x2
  327 0034 02       		.byte	0x2
  328 0035 05       		.byte	0x5
- 329 0036 D5010000 		.4byte	.LASF2
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 11
+ 329 0036 9B010000 		.4byte	.LASF2
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccW4Wf0d.s 			page 11
 
 
  330 003a 02       		.uleb128 0x2
@@ -608,7 +608,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
  334 0041 02       		.uleb128 0x2
  335 0042 04       		.byte	0x4
  336 0043 05       		.byte	0x5
- 337 0044 E5010000 		.4byte	.LASF4
+ 337 0044 AB010000 		.4byte	.LASF4
  338 0048 02       		.uleb128 0x2
  339 0049 04       		.byte	0x4
  340 004a 07       		.byte	0x7
@@ -630,7 +630,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
  356 0066 07       		.byte	0x7
  357 0067 52010000 		.4byte	.LASF8
  358 006b 04       		.uleb128 0x4
- 359 006c DF010000 		.4byte	.LASF9
+ 359 006c A5010000 		.4byte	.LASF9
  360 0070 02       		.byte	0x2
  361 0071 3801     		.2byte	0x138
  362 0073 2C000000 		.4byte	0x2c
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
  384 00a0 96010000 		.4byte	.LASF14
  385 00a4 04       		.uleb128 0x4
  386 00a5 00000000 		.4byte	.LASF15
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 12
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccW4Wf0d.s 			page 12
 
 
  387 00a9 02       		.byte	0x2
@@ -667,7 +667,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
  390 00b0 05       		.uleb128 0x5
  391 00b1 83000000 		.4byte	0x83
  392 00b5 06       		.uleb128 0x6
- 393 00b6 44020000 		.4byte	.LASF16
+ 393 00b6 54020000 		.4byte	.LASF16
  394 00ba 01       		.byte	0x1
  395 00bb 48       		.byte	0x48
  396 00bc 00000000 		.4byte	.LFB0
@@ -711,14 +711,14 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
  434 0109 77       		.sleb128 -9
  435 010a 00       		.byte	0
  436 010b 09       		.uleb128 0x9
- 437 010c 61020000 		.4byte	.LASF20
+ 437 010c 71020000 		.4byte	.LASF20
  438 0110 01       		.byte	0x1
  439 0111 88       		.byte	0x88
  440 0112 6B000000 		.4byte	0x6b
  441 0116 00000000 		.4byte	.LFB2
  442 011a 1C000000 		.4byte	.LFE2-.LFB2
  443 011e 01       		.uleb128 0x1
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 13
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccW4Wf0d.s 			page 13
 
 
  444 011f 9C       		.byte	0x9c
@@ -766,7 +766,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
  486 0173 74       		.sleb128 -12
  487 0174 00       		.byte	0
  488 0175 0A       		.uleb128 0xa
- 489 0176 EE010000 		.4byte	.LASF26
+ 489 0176 FE010000 		.4byte	.LASF26
  490 017a 01       		.byte	0x1
  491 017b EC       		.byte	0xec
  492 017c 6B000000 		.4byte	0x6b
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
  498 018b 89010000 		.4byte	.LASF27
  499 018f 01       		.byte	0x1
  500 0190 EE       		.byte	0xee
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 14
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccW4Wf0d.s 			page 14
 
 
  501 0191 6B000000 		.4byte	0x6b
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
  555 002e 3A       		.uleb128 0x3a
  556 002f 0B       		.uleb128 0xb
  557 0030 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 15
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccW4Wf0d.s 			page 15
 
 
  558 0031 05       		.uleb128 0x5
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
  612 0068 00       		.byte	0
  613 0069 03       		.uleb128 0x3
  614 006a 0E       		.uleb128 0xe
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 16
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccW4Wf0d.s 			page 16
 
 
  615 006b 3A       		.uleb128 0x3a
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
  669 00a2 40       		.uleb128 0x40
  670 00a3 18       		.uleb128 0x18
  671 00a4 9742     		.uleb128 0x2117
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 17
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccW4Wf0d.s 			page 17
 
 
  672 00a6 19       		.uleb128 0x19
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
  720      72746973 
  720      696E675F 
  720      4C45445F 
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 18
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccW4Wf0d.s 			page 18
 
 
  720      53657449 
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
  742      313600
  743              	.LASF21:
  744 011e 41647665 		.ascii	"Advertising_LED_ReadDataReg\000"
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 19
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccW4Wf0d.s 			page 19
 
 
  744      72746973 
@@ -1122,53 +1122,55 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 1
  761              	.LASF14:
  762 0196 63686172 		.ascii	"char\000"
  762      00
- 763              	.LASF30:
- 764 019b 443A5C49 		.ascii	"D:\\IoT\\PSoC Creator\\BLE_Proximity02\\BLE_Proximi"
- 764      6F545C50 
- 764      536F4320 
- 764      43726561 
- 764      746F725C 
- 765 01ca 74793031 		.ascii	"ty01.cydsn\000"
- 765      2E637964 
- 765      736E00
- 766              	.LASF2:
- 767 01d5 73686F72 		.ascii	"short int\000"
- 767      7420696E 
- 767      7400
- 768              	.LASF9:
- 769 01df 75696E74 		.ascii	"uint8\000"
- 769      3800
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc0el1SC.s 			page 20
+ 763              	.LASF2:
+ 764 019b 73686F72 		.ascii	"short int\000"
+ 764      7420696E 
+ 764      7400
+ 765              	.LASF9:
+ 766 01a5 75696E74 		.ascii	"uint8\000"
+ 766      3800
+ 767              	.LASF4:
+ 768 01ab 6C6F6E67 		.ascii	"long int\000"
+ 768      20696E74 
+ 768      00
+ 769              	.LASF30:
+ 770 01b4 443A5C49 		.ascii	"D:\\IoT\\ProximityEvents\\Cypress PSoC\\BLE_Proximi"
+ 770      6F545C50 
+ 770      726F7869 
+ 770      6D697479 
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccW4Wf0d.s 			page 20
 
 
- 770              	.LASF4:
- 771 01e5 6C6F6E67 		.ascii	"long int\000"
- 771      20696E74 
- 771      00
+ 770      4576656E 
+ 771 01e3 74793032 		.ascii	"ty02\\BLE_Proximity01.cydsn\000"
+ 771      5C424C45 
+ 771      5F50726F 
+ 771      78696D69 
+ 771      74793031 
  772              	.LASF26:
- 773 01ee 41647665 		.ascii	"Advertising_LED_ClearInterrupt\000"
+ 773 01fe 41647665 		.ascii	"Advertising_LED_ClearInterrupt\000"
  773      72746973 
  773      696E675F 
  773      4C45445F 
  773      436C6561 
  774              	.LASF0:
- 775 020d 7369676E 		.ascii	"signed char\000"
+ 775 021d 7369676E 		.ascii	"signed char\000"
  775      65642063 
  775      68617200 
  776              	.LASF29:
- 777 0219 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\Advertising_LED.c\000"
+ 777 0229 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\Advertising_LED.c\000"
  777      6E657261 
  777      7465645F 
  777      536F7572 
  777      63655C50 
  778              	.LASF16:
- 779 0244 41647665 		.ascii	"Advertising_LED_SetDriveMode\000"
+ 779 0254 41647665 		.ascii	"Advertising_LED_SetDriveMode\000"
  779      72746973 
  779      696E675F 
  779      4C45445F 
  779      53657444 
  780              	.LASF20:
- 781 0261 41647665 		.ascii	"Advertising_LED_Read\000"
+ 781 0271 41647665 		.ascii	"Advertising_LED_Read\000"
  781      72746973 
  781      696E675F 
  781      4C45445F 

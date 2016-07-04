@@ -34,7 +34,7 @@
 #define LED__0__PC2 CYREG_GPIO_PRT0_PC2
 #define LED__0__PORT 0u
 #define LED__0__PS CYREG_GPIO_PRT0_PS
-#define LED__0__SHIFT 3
+#define LED__0__SHIFT 3u
 #define LED__DR CYREG_GPIO_PRT0_DR
 #define LED__DR_CLR CYREG_GPIO_PRT0_DR_CLR
 #define LED__DR_INV CYREG_GPIO_PRT0_DR_INV
@@ -63,7 +63,7 @@
 #define LED__PC2 CYREG_GPIO_PRT0_PC2
 #define LED__PORT 0u
 #define LED__PS CYREG_GPIO_PRT0_PS
-#define LED__SHIFT 3
+#define LED__SHIFT 3u
 
 /* SW2 */
 #define SW2__0__DR CYREG_GPIO_PRT2_DR
@@ -97,7 +97,7 @@
 #define SW2__0__PC2 CYREG_GPIO_PRT2_PC2
 #define SW2__0__PORT 2u
 #define SW2__0__PS CYREG_GPIO_PRT2_PS
-#define SW2__0__SHIFT 7
+#define SW2__0__SHIFT 7u
 #define SW2__DR CYREG_GPIO_PRT2_DR
 #define SW2__DR_CLR CYREG_GPIO_PRT2_DR_CLR
 #define SW2__DR_INV CYREG_GPIO_PRT2_DR_INV
@@ -126,7 +126,7 @@
 #define SW2__PC2 CYREG_GPIO_PRT2_PC2
 #define SW2__PORT 2u
 #define SW2__PS CYREG_GPIO_PRT2_PS
-#define SW2__SHIFT 7
+#define SW2__SHIFT 7u
 #define SW2__SNAP CYREG_GPIO_PRT2_INTR
 
 /* SW2_Interrupt */
@@ -463,8 +463,15 @@
 #define UART_DEB_rx__0__DR_INV CYREG_GPIO_PRT1_DR_INV
 #define UART_DEB_rx__0__DR_SET CYREG_GPIO_PRT1_DR_SET
 #define UART_DEB_rx__0__HSIOM CYREG_HSIOM_PORT_SEL1
+#define UART_DEB_rx__0__HSIOM_GPIO 0u
+#define UART_DEB_rx__0__HSIOM_I2C 14u
+#define UART_DEB_rx__0__HSIOM_I2C_SDA 14u
 #define UART_DEB_rx__0__HSIOM_MASK 0x000F0000u
 #define UART_DEB_rx__0__HSIOM_SHIFT 16u
+#define UART_DEB_rx__0__HSIOM_SPI 15u
+#define UART_DEB_rx__0__HSIOM_SPI_MOSI 15u
+#define UART_DEB_rx__0__HSIOM_UART 9u
+#define UART_DEB_rx__0__HSIOM_UART_RX 9u
 #define UART_DEB_rx__0__INTCFG CYREG_GPIO_PRT1_INTR_CFG
 #define UART_DEB_rx__0__INTR CYREG_GPIO_PRT1_INTR
 #define UART_DEB_rx__0__INTR_CFG CYREG_GPIO_PRT1_INTR_CFG
@@ -489,7 +496,7 @@
 #define UART_DEB_rx__0__PC2 CYREG_GPIO_PRT1_PC2
 #define UART_DEB_rx__0__PORT 1u
 #define UART_DEB_rx__0__PS CYREG_GPIO_PRT1_PS
-#define UART_DEB_rx__0__SHIFT 4
+#define UART_DEB_rx__0__SHIFT 4u
 #define UART_DEB_rx__DR CYREG_GPIO_PRT1_DR
 #define UART_DEB_rx__DR_CLR CYREG_GPIO_PRT1_DR_CLR
 #define UART_DEB_rx__DR_INV CYREG_GPIO_PRT1_DR_INV
@@ -518,7 +525,7 @@
 #define UART_DEB_rx__PC2 CYREG_GPIO_PRT1_PC2
 #define UART_DEB_rx__PORT 1u
 #define UART_DEB_rx__PS CYREG_GPIO_PRT1_PS
-#define UART_DEB_rx__SHIFT 4
+#define UART_DEB_rx__SHIFT 4u
 
 /* UART_DEB_SCB */
 #define UART_DEB_SCB__CTRL CYREG_SCB0_CTRL
@@ -617,8 +624,15 @@
 #define UART_DEB_tx__0__DR_INV CYREG_GPIO_PRT1_DR_INV
 #define UART_DEB_tx__0__DR_SET CYREG_GPIO_PRT1_DR_SET
 #define UART_DEB_tx__0__HSIOM CYREG_HSIOM_PORT_SEL1
+#define UART_DEB_tx__0__HSIOM_GPIO 0u
+#define UART_DEB_tx__0__HSIOM_I2C 14u
+#define UART_DEB_tx__0__HSIOM_I2C_SCL 14u
 #define UART_DEB_tx__0__HSIOM_MASK 0x00F00000u
 #define UART_DEB_tx__0__HSIOM_SHIFT 20u
+#define UART_DEB_tx__0__HSIOM_SPI 15u
+#define UART_DEB_tx__0__HSIOM_SPI_MISO 15u
+#define UART_DEB_tx__0__HSIOM_UART 9u
+#define UART_DEB_tx__0__HSIOM_UART_TX 9u
 #define UART_DEB_tx__0__INTCFG CYREG_GPIO_PRT1_INTR_CFG
 #define UART_DEB_tx__0__INTR CYREG_GPIO_PRT1_INTR
 #define UART_DEB_tx__0__INTR_CFG CYREG_GPIO_PRT1_INTR_CFG
@@ -646,7 +660,7 @@
 #define UART_DEB_tx__0__PC2 CYREG_GPIO_PRT1_PC2
 #define UART_DEB_tx__0__PORT 1u
 #define UART_DEB_tx__0__PS CYREG_GPIO_PRT1_PS
-#define UART_DEB_tx__0__SHIFT 5
+#define UART_DEB_tx__0__SHIFT 5u
 #define UART_DEB_tx__DR CYREG_GPIO_PRT1_DR
 #define UART_DEB_tx__DR_CLR CYREG_GPIO_PRT1_DR_CLR
 #define UART_DEB_tx__DR_INV CYREG_GPIO_PRT1_DR_INV
@@ -675,7 +689,7 @@
 #define UART_DEB_tx__PC2 CYREG_GPIO_PRT1_PC2
 #define UART_DEB_tx__PORT 1u
 #define UART_DEB_tx__PS CYREG_GPIO_PRT1_PS
-#define UART_DEB_tx__SHIFT 5
+#define UART_DEB_tx__SHIFT 5u
 
 /* Alert_LED */
 #define Alert_LED__0__DR CYREG_GPIO_PRT3_DR
@@ -709,7 +723,7 @@
 #define Alert_LED__0__PC2 CYREG_GPIO_PRT3_PC2
 #define Alert_LED__0__PORT 3u
 #define Alert_LED__0__PS CYREG_GPIO_PRT3_PS
-#define Alert_LED__0__SHIFT 7
+#define Alert_LED__0__SHIFT 7u
 #define Alert_LED__DR CYREG_GPIO_PRT3_DR
 #define Alert_LED__DR_CLR CYREG_GPIO_PRT3_DR_CLR
 #define Alert_LED__DR_INV CYREG_GPIO_PRT3_DR_INV
@@ -738,7 +752,7 @@
 #define Alert_LED__PC2 CYREG_GPIO_PRT3_PC2
 #define Alert_LED__PORT 3u
 #define Alert_LED__PS CYREG_GPIO_PRT3_PS
-#define Alert_LED__SHIFT 7
+#define Alert_LED__SHIFT 7u
 
 /* Connect_LED */
 #define Connect_LED__0__DR CYREG_GPIO_PRT0_DR
@@ -772,7 +786,7 @@
 #define Connect_LED__0__PC2 CYREG_GPIO_PRT0_PC2
 #define Connect_LED__0__PORT 0u
 #define Connect_LED__0__PS CYREG_GPIO_PRT0_PS
-#define Connect_LED__0__SHIFT 0
+#define Connect_LED__0__SHIFT 0u
 #define Connect_LED__DR CYREG_GPIO_PRT0_DR
 #define Connect_LED__DR_CLR CYREG_GPIO_PRT0_DR_CLR
 #define Connect_LED__DR_INV CYREG_GPIO_PRT0_DR_INV
@@ -801,7 +815,7 @@
 #define Connect_LED__PC2 CYREG_GPIO_PRT0_PC2
 #define Connect_LED__PORT 0u
 #define Connect_LED__PS CYREG_GPIO_PRT0_PS
-#define Connect_LED__SHIFT 0
+#define Connect_LED__SHIFT 0u
 
 /* timer_clock */
 #define timer_clock__CTRL_REGISTER CYREG_PERI_PCLK_CTL11
@@ -841,7 +855,7 @@
 #define Disconnect_LED__0__PC2 CYREG_GPIO_PRT2_PC2
 #define Disconnect_LED__0__PORT 2u
 #define Disconnect_LED__0__PS CYREG_GPIO_PRT2_PS
-#define Disconnect_LED__0__SHIFT 6
+#define Disconnect_LED__0__SHIFT 6u
 #define Disconnect_LED__DR CYREG_GPIO_PRT2_DR
 #define Disconnect_LED__DR_CLR CYREG_GPIO_PRT2_DR_CLR
 #define Disconnect_LED__DR_INV CYREG_GPIO_PRT2_DR_INV
@@ -870,7 +884,7 @@
 #define Disconnect_LED__PC2 CYREG_GPIO_PRT2_PC2
 #define Disconnect_LED__PORT 2u
 #define Disconnect_LED__PS CYREG_GPIO_PRT2_PS
-#define Disconnect_LED__SHIFT 6
+#define Disconnect_LED__SHIFT 6u
 
 /* Advertising_LED */
 #define Advertising_LED__0__DR CYREG_GPIO_PRT3_DR
@@ -904,7 +918,7 @@
 #define Advertising_LED__0__PC2 CYREG_GPIO_PRT3_PC2
 #define Advertising_LED__0__PORT 3u
 #define Advertising_LED__0__PS CYREG_GPIO_PRT3_PS
-#define Advertising_LED__0__SHIFT 6
+#define Advertising_LED__0__SHIFT 6u
 #define Advertising_LED__DR CYREG_GPIO_PRT3_DR
 #define Advertising_LED__DR_CLR CYREG_GPIO_PRT3_DR_CLR
 #define Advertising_LED__DR_INV CYREG_GPIO_PRT3_DR_INV
@@ -933,11 +947,12 @@
 #define Advertising_LED__PC2 CYREG_GPIO_PRT3_PC2
 #define Advertising_LED__PORT 3u
 #define Advertising_LED__PS CYREG_GPIO_PRT3_PS
-#define Advertising_LED__SHIFT 6
+#define Advertising_LED__SHIFT 6u
 
 /* Miscellaneous */
 #define CY_PROJECT_NAME "BLE_Proximity01"
-#define CY_VERSION "PSoC Creator  3.3 CP2"
+#define CY_VERSION "PSoC Creator  3.3 CP3"
+#define CYDEV_BANDGAP_VOLTAGE 1.024
 #define CYDEV_BCLK__HFCLK__HZ 48000000U
 #define CYDEV_BCLK__HFCLK__KHZ 48000U
 #define CYDEV_BCLK__HFCLK__MHZ 48U
@@ -945,9 +960,9 @@
 #define CYDEV_BCLK__SYSCLK__KHZ 24000U
 #define CYDEV_BCLK__SYSCLK__MHZ 24U
 #define CYDEV_CHIP_DIE_LEOPARD 1u
-#define CYDEV_CHIP_DIE_PANTHER 18u
-#define CYDEV_CHIP_DIE_PSOC4A 10u
-#define CYDEV_CHIP_DIE_PSOC5LP 17u
+#define CYDEV_CHIP_DIE_PANTHER 19u
+#define CYDEV_CHIP_DIE_PSOC4A 11u
+#define CYDEV_CHIP_DIE_PSOC5LP 18u
 #define CYDEV_CHIP_DIE_TMA4 2u
 #define CYDEV_CHIP_DIE_UNKNOWN 0u
 #define CYDEV_CHIP_FAMILY_PSOC3 1u
@@ -957,22 +972,23 @@
 #define CYDEV_CHIP_FAMILY_USED CYDEV_CHIP_FAMILY_PSOC4
 #define CYDEV_CHIP_JTAG_ID 0x0E34119Eu
 #define CYDEV_CHIP_MEMBER_3A 1u
-#define CYDEV_CHIP_MEMBER_4A 10u
-#define CYDEV_CHIP_MEMBER_4C 15u
-#define CYDEV_CHIP_MEMBER_4D 6u
+#define CYDEV_CHIP_MEMBER_4A 11u
+#define CYDEV_CHIP_MEMBER_4C 16u
+#define CYDEV_CHIP_MEMBER_4D 7u
 #define CYDEV_CHIP_MEMBER_4E 4u
-#define CYDEV_CHIP_MEMBER_4F 11u
+#define CYDEV_CHIP_MEMBER_4F 12u
 #define CYDEV_CHIP_MEMBER_4G 2u
-#define CYDEV_CHIP_MEMBER_4H 9u
-#define CYDEV_CHIP_MEMBER_4I 14u
-#define CYDEV_CHIP_MEMBER_4J 7u
-#define CYDEV_CHIP_MEMBER_4K 8u
-#define CYDEV_CHIP_MEMBER_4L 13u
-#define CYDEV_CHIP_MEMBER_4M 12u
-#define CYDEV_CHIP_MEMBER_4N 5u
+#define CYDEV_CHIP_MEMBER_4H 10u
+#define CYDEV_CHIP_MEMBER_4I 15u
+#define CYDEV_CHIP_MEMBER_4J 8u
+#define CYDEV_CHIP_MEMBER_4K 9u
+#define CYDEV_CHIP_MEMBER_4L 14u
+#define CYDEV_CHIP_MEMBER_4M 13u
+#define CYDEV_CHIP_MEMBER_4N 6u
+#define CYDEV_CHIP_MEMBER_4O 5u
 #define CYDEV_CHIP_MEMBER_4U 3u
-#define CYDEV_CHIP_MEMBER_5A 17u
-#define CYDEV_CHIP_MEMBER_5B 16u
+#define CYDEV_CHIP_MEMBER_5A 18u
+#define CYDEV_CHIP_MEMBER_5B 17u
 #define CYDEV_CHIP_MEMBER_UNKNOWN 0u
 #define CYDEV_CHIP_MEMBER_USED CYDEV_CHIP_MEMBER_4F
 #define CYDEV_CHIP_DIE_EXPECT CYDEV_CHIP_MEMBER_USED
@@ -1013,6 +1029,7 @@
 #define CYDEV_CHIP_REVISION_4L_PRODUCTION 0u
 #define CYDEV_CHIP_REVISION_4M_PRODUCTION 0u
 #define CYDEV_CHIP_REVISION_4N_PRODUCTION 0u
+#define CYDEV_CHIP_REVISION_4O_PRODUCTION 0u
 #define CYDEV_CHIP_REVISION_4U_PRODUCTION 0u
 #define CYDEV_CHIP_REVISION_5A_ES0 0u
 #define CYDEV_CHIP_REVISION_5A_ES1 1u

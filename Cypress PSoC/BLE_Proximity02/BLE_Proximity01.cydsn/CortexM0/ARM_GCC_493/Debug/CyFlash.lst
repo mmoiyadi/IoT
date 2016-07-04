@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
   22:.\Generated_Source\PSoC4/CyFlash.c **** #include "CyFlash.h"
   23:.\Generated_Source\PSoC4/CyFlash.c **** 
   24:.\Generated_Source\PSoC4/CyFlash.c **** 
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 2
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 2
 
 
   25:.\Generated_Source\PSoC4/CyFlash.c **** /*******************************************************************************
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
   79:.\Generated_Source\PSoC4/CyFlash.c **** *   flash requires that changes be made to the IMO and HFCLK settings. The
   80:.\Generated_Source\PSoC4/CyFlash.c **** *   configuration is restored before returning. This will impact the operation
   81:.\Generated_Source\PSoC4/CyFlash.c **** *   of most of the hardware in the device.
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 3
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 3
 
 
   82:.\Generated_Source\PSoC4/CyFlash.c **** *
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
   57 0020 00D9     		bls	.LCB26
   58 0022 8CE0     		b	.L2	@long jump
   59              	.LCB26:
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 4
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 4
 
 
   60              		.loc 1 108 0 is_stmt 0 discriminator 1
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
   85              		.loc 1 137 0 discriminator 2
   86 004c 444A     		ldr	r2, .L15+12
   87              	.L4:
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 5
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 5
 
 
  135:.\Generated_Source\PSoC4/CyFlash.c ****                          (uint32) (CY_FLASH_PAGE_LATCH_START_ADDR             << CY_FLASH_PARAM_ADD
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  133 0092 002B     		cmp	r3, #0
  134 0094 52D1     		bne	.L7
  146:.\Generated_Source\PSoC4/CyFlash.c ****         {
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 6
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 6
 
 
  147:.\Generated_Source\PSoC4/CyFlash.c ****             /***************************************************************
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  168 00d0 FB18     		add	r3, r7, r3
  169 00d2 274A     		ldr	r2, .L15+28
  170 00d4 1A60     		str	r2, [r3]
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 7
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 7
 
 
  168:.\Generated_Source\PSoC4/CyFlash.c ****                 parameters[0u] |= (uint32)(rowNum << 16u);
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  179:.\Generated_Source\PSoC4/CyFlash.c ****                     (void)memset((void *)&parameters[2u], 0, CY_FLASH_SIZEOF_ROW);
  180:.\Generated_Source\PSoC4/CyFlash.c ****                     parameters[savedIndex] = savedValue;
  181:.\Generated_Source\PSoC4/CyFlash.c **** 
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 8
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 8
 
 
  182:.\Generated_Source\PSoC4/CyFlash.c ****                     /* Load Flash Bytes */
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  234 013a 04E0     		b	.L13
  235              	.L7:
  236 013c 03E0     		b	.L13
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 9
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 9
 
 
  237              	.L2:
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  229:.\Generated_Source\PSoC4/CyFlash.c **** *
  230:.\Generated_Source\PSoC4/CyFlash.c **** * Summary:
  231:.\Generated_Source\PSoC4/CyFlash.c **** *  Sets the number of clock cycles the cache will wait before it samples data
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 10
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 10
 
 
  232:.\Generated_Source\PSoC4/CyFlash.c **** *  coming back from Flash. This function must be called before increasing the
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  298 0018 06D8     		bhi	.L18
  265:.\Generated_Source\PSoC4/CyFlash.c ****         {
  266:.\Generated_Source\PSoC4/CyFlash.c ****             CY_FLASH_CTL_REG = (CY_FLASH_CTL_REG & ~CY_FLASH_CTL_WS_MASK) | CY_FLASH_CTL_WS_0_VALUE
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 11
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 11
 
 
  299              		.loc 1 266 0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  338              		.loc 1 281 0 discriminator 1
  339 0058 0020     		mov	r0, #0
  340 005a FFF7FEFF 		bl	CyHalt
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 12
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 12
 
 
  341              	.L19:
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  309:.\Generated_Source\PSoC4/CyFlash.c **** *   CY_SFLASH_SIZEOF_USERROW macro. Refer to the device TRM for the details.
  310:.\Generated_Source\PSoC4/CyFlash.c **** *
  311:.\Generated_Source\PSoC4/CyFlash.c **** * Return:
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 13
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 13
 
 
  312:.\Generated_Source\PSoC4/CyFlash.c **** *  Status
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  331:.\Generated_Source\PSoC4/CyFlash.c ****         parameters[0u] = (uint32) (CY_FLASH_GET_MACRO_FROM_ROW(rowNum)        << CY_FLASH_PARAM_MAC
  332:.\Generated_Source\PSoC4/CyFlash.c ****                          (uint32) (CY_FLASH_PAGE_LATCH_START_ADDR             << CY_FLASH_PARAM_ADD
  333:.\Generated_Source\PSoC4/CyFlash.c ****                          (uint32) (CY_FLASH_KEY_TWO(CY_FLASH_API_OPCODE_LOAD) << CY_FLASH_PARAM_KEY
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 14
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 14
 
 
  403              		.loc 1 333 0 is_stmt 1
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  449 0072 1B06     		lsl	r3, r3, #24
  450 0074 9A42     		cmp	r2, r3
  451 0076 04D0     		beq	.L28
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 15
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 15
 
 
  452              		.loc 1 340 0 is_stmt 0 discriminator 1
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  357:.\Generated_Source\PSoC4/CyFlash.c ****                 retValue = CySysFlashClockConfig();
  490              		.loc 1 357 0
  491 00b6 FFF7FEFF 		bl	CySysFlashClockConfig
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 16
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 16
 
 
  492 00ba 031C     		mov	r3, r0
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  534 00fe 0F22     		mov	r2, #15
  535 0100 1340     		and	r3, r2
  536 0102 00E0     		b	.L34
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 17
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 17
 
 
  537              	.L33:
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  384:.\Generated_Source\PSoC4/CyFlash.c ****     return (retValue);
  576              		.loc 1 384 0
  577 013a 9823     		mov	r3, #152
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 18
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 18
 
 
  578 013c FB18     		add	r3, r7, r3
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  612              		.cfi_offset 14, -4
  613 0002 84B0     		sub	sp, sp, #16
  614              		.cfi_def_cfa_offset 24
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 19
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 19
 
 
  615 0004 00AF     		add	r7, sp, #0
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  454:.\Generated_Source\PSoC4/CyFlash.c **** 
  455:.\Generated_Source\PSoC4/CyFlash.c ****     #else
  456:.\Generated_Source\PSoC4/CyFlash.c **** 
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 20
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 20
 
 
  457:.\Generated_Source\PSoC4/CyFlash.c ****         #if (CY_IP_SPCIF_SYNCHRONOUS)
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  658 0040 FB68     		ldr	r3, [r7, #12]
  473:.\Generated_Source\PSoC4/CyFlash.c **** }
  659              		.loc 1 473 0 discriminator 4
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 21
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 21
 
 
  660 0042 181C     		mov	r0, r3
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  694 0006 0023     		mov	r3, #0
  695 0008 7B60     		str	r3, [r7, #4]
  494:.\Generated_Source\PSoC4/CyFlash.c **** 
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 22
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 22
 
 
  495:.\Generated_Source\PSoC4/CyFlash.c ****     /***************************************************************************
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  545:.\Generated_Source\PSoC4/CyFlash.c ****     CY_FLASH_CPUSS_SYSREQ_REG = CY_FLASH_CPUSS_REQ_START | CY_FLASH_API_OPCODE_CLK_CONFIG;
  700              		.loc 1 545 0
  701 0010 0D4B     		ldr	r3, .L50+8
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 23
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 23
 
 
  702 0012 0E4A     		ldr	r2, .L50+12
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  552:.\Generated_Source\PSoC4/CyFlash.c **** #endif  /* (CY_IP_SPCIF_SYNCHRONOUS) */
  553:.\Generated_Source\PSoC4/CyFlash.c **** 
  554:.\Generated_Source\PSoC4/CyFlash.c **** 
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 24
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 24
 
 
  555:.\Generated_Source\PSoC4/CyFlash.c **** /*******************************************************************************
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  596:.\Generated_Source\PSoC4/CyFlash.c **** 
  597:.\Generated_Source\PSoC4/CyFlash.c ****         /* Restore clock settings */
  598:.\Generated_Source\PSoC4/CyFlash.c ****         if ((cySysFlashBackup.clkImoFreq != 48u) ||
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 25
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 25
 
 
  599:.\Generated_Source\PSoC4/CyFlash.c ****             ((cySysFlashBackup.clkSelectReg & CY_SYS_CLK_SELECT_DIRECT_SEL_MASK) != CY_SYS_CLK_HFCL
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  783 0028 1A07     		lsl	r2, r3, #28
  784 002a A023     		mov	r3, #160
  785 002c 1B06     		lsl	r3, r3, #24
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 26
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 26
 
 
  786 002e 9A42     		cmp	r2, r3
@@ -1556,9 +1556,9 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  830 000c F2000000 		.4byte	.LASF34
  831 0010 01       		.byte	0x1
  832 0011 4A000000 		.4byte	.LASF35
- 833 0015 EF010000 		.4byte	.LASF36
+ 833 0015 6F020000 		.4byte	.LASF36
  834 0019 00000000 		.4byte	.Ldebug_ranges0+0
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 27
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 27
 
 
  835 001d 00000000 		.4byte	0
@@ -1566,7 +1566,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  837 0025 02       		.uleb128 0x2
  838 0026 01       		.byte	0x1
  839 0027 06       		.byte	0x6
- 840 0028 A9020000 		.4byte	.LASF0
+ 840 0028 B9020000 		.4byte	.LASF0
  841 002c 02       		.uleb128 0x2
  842 002d 01       		.byte	0x1
  843 002e 08       		.byte	0x8
@@ -1582,7 +1582,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  853 0041 02       		.uleb128 0x2
  854 0042 04       		.byte	0x4
  855 0043 05       		.byte	0x5
- 856 0044 A0020000 		.4byte	.LASF4
+ 856 0044 66020000 		.4byte	.LASF4
  857 0048 02       		.uleb128 0x2
  858 0049 04       		.byte	0x4
  859 004a 07       		.byte	0x7
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  889 0088 02       		.byte	0x2
  890 0089 3A01     		.2byte	0x13a
  891 008b 48000000 		.4byte	0x48
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 28
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 28
 
 
  892 008f 02       		.uleb128 0x2
@@ -1662,7 +1662,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  930 00db 83000000 		.4byte	0x83
  931 00df 00       		.byte	0
  932 00e0 07       		.uleb128 0x7
- 933 00e1 2E020000 		.4byte	.LASF19
+ 933 00e1 F4010000 		.4byte	.LASF19
  934 00e5 03       		.byte	0x3
  935 00e6 9C       		.byte	0x9c
  936 00e7 ED000000 		.4byte	0xed
@@ -1676,15 +1676,15 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  944 00fb 03       		.byte	0x3
  945 00fc 00       		.byte	0
  946 00fd 0A       		.uleb128 0xa
- 947 00fe 7F020000 		.4byte	.LASF20
+ 947 00fe 45020000 		.4byte	.LASF20
  948 0102 03       		.byte	0x3
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 29
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 29
 
 
  949 0103 A2       		.byte	0xa2
  950 0104 C8000000 		.4byte	0xc8
  951 0108 0B       		.uleb128 0xb
- 952 0109 B5020000 		.4byte	.LASF28
+ 952 0109 C5020000 		.4byte	.LASF28
  953 010d 01       		.byte	0x1
  954 010e 5C       		.byte	0x5c
  955 010f 83000000 		.4byte	0x83
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  1003 016f 01       		.byte	0x1
  1004 0170 61       		.byte	0x61
  1005 0171 6B000000 		.4byte	0x6b
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 30
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 30
 
 
  1006 0175 02       		.uleb128 0x2
@@ -1760,7 +1760,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  1022 0194 05       		.uleb128 0x5
  1023 0195 84010000 		.4byte	0x184
  1024 0199 10       		.uleb128 0x10
- 1025 019a C8020000 		.4byte	.LASF38
+ 1025 019a D8020000 		.4byte	.LASF38
  1026 019e 01       		.byte	0x1
  1027 019f F5       		.byte	0xf5
  1028 01a0 00000000 		.4byte	.LFB3
@@ -1769,7 +1769,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  1031 01a9 9C       		.byte	0x9c
  1032 01aa CB010000 		.4byte	0x1cb
  1033 01ae 0C       		.uleb128 0xc
- 1034 01af 29020000 		.4byte	.LASF27
+ 1034 01af EF010000 		.4byte	.LASF27
  1035 01b3 01       		.byte	0x1
  1036 01b4 F5       		.byte	0xf5
  1037 01b5 83000000 		.4byte	0x83
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  1060 01e5 12       		.uleb128 0x12
  1061 01e6 34000000 		.4byte	.LASF21
  1062 01ea 01       		.byte	0x1
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 31
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 31
 
 
  1063 01eb 4001     		.2byte	0x140
@@ -1850,7 +1850,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  1109 0243 05       		.uleb128 0x5
  1110 0244 84010000 		.4byte	0x184
  1111 0248 14       		.uleb128 0x14
- 1112 0249 69020000 		.4byte	.LASF30
+ 1112 0249 2F020000 		.4byte	.LASF30
  1113 024d 01       		.byte	0x1
  1114 024e 9301     		.2byte	0x193
  1115 0250 A4000000 		.4byte	0xa4
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  1117 0258 60000000 		.4byte	.LFE5-.LFB5
  1118 025c 01       		.uleb128 0x1
  1119 025d 9C       		.byte	0x9c
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 32
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 32
 
 
  1120 025e 81020000 		.4byte	0x281
@@ -1889,7 +1889,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  1145 0291 05       		.uleb128 0x5
  1146 0292 81020000 		.4byte	0x281
  1147 0296 14       		.uleb128 0x14
- 1148 0297 3C020000 		.4byte	.LASF31
+ 1148 0297 02020000 		.4byte	.LASF31
  1149 029b 01       		.byte	0x1
  1150 029c EB01     		.2byte	0x1eb
  1151 029e A4000000 		.4byte	0xa4
@@ -1908,7 +1908,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  1164 02be 74       		.sleb128 -12
  1165 02bf 00       		.byte	0
  1166 02c0 14       		.uleb128 0x14
- 1167 02c1 52020000 		.4byte	.LASF32
+ 1167 02c1 18020000 		.4byte	.LASF32
  1168 02c5 01       		.byte	0x1
  1169 02c6 3902     		.2byte	0x239
  1170 02c8 A4000000 		.4byte	0xa4
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  1174 02d5 9C       		.byte	0x9c
  1175 02d6 F9020000 		.4byte	0x2f9
  1176 02da 13       		.uleb128 0x13
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 33
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 33
 
 
  1177 02db 0F000000 		.4byte	.LASF23
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  1231 0019 0B       		.uleb128 0xb
  1232 001a 03       		.uleb128 0x3
  1233 001b 0E       		.uleb128 0xe
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 34
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 34
 
 
  1234 001c 00       		.byte	0
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  1288 0052 0B       		.uleb128 0xb
  1289 0053 3B       		.uleb128 0x3b
  1290 0054 0B       		.uleb128 0xb
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 35
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 35
 
 
  1291 0055 49       		.uleb128 0x49
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  1345 008b 12       		.uleb128 0x12
  1346 008c 06       		.uleb128 0x6
  1347 008d 40       		.uleb128 0x40
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 36
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 36
 
 
  1348 008e 18       		.uleb128 0x18
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  1402 00c5 2E       		.uleb128 0x2e
  1403 00c6 01       		.byte	0x1
  1404 00c7 3F       		.uleb128 0x3f
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 37
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 37
 
 
  1405 00c8 19       		.uleb128 0x19
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  1459 0100 0B       		.uleb128 0xb
  1460 0101 3B       		.uleb128 0x3b
  1461 0102 05       		.uleb128 0x5
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 38
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 38
 
 
  1462 0103 49       		.uleb128 0x49
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  1516 000e 0000     		.2byte	0
  1517 0010 00000000 		.4byte	.LFB2
  1518 0014 78010000 		.4byte	.LFE2-.LFB2
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 39
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 39
 
 
  1519 0018 00000000 		.4byte	.LFB3
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  1559      756D00
  1560              	.LASF24:
  1561 003b 636C6B43 		.ascii	"clkCnfRetValue\000"
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 40
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 40
 
 
  1561      6E665265 
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  1585      7420696E 
  1585      7400
  1586              	.LASF34:
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 41
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 41
 
 
  1587 00f2 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
@@ -2456,71 +2456,73 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 1
  1606              	.LASF14:
  1607 01ea 63686172 		.ascii	"char\000"
  1607      00
- 1608              	.LASF36:
- 1609 01ef 443A5C49 		.ascii	"D:\\IoT\\PSoC Creator\\BLE_Proximity02\\BLE_Proximi"
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 42
+ 1608              	.LASF27:
+ 1609 01ef 66726571 		.ascii	"freq\000"
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 42
 
 
- 1609      6F545C50 
- 1609      536F4320 
- 1609      43726561 
- 1609      746F725C 
- 1610 021e 74793031 		.ascii	"ty01.cydsn\000"
- 1610      2E637964 
- 1610      736E00
- 1611              	.LASF27:
- 1612 0229 66726571 		.ascii	"freq\000"
- 1612      00
- 1613              	.LASF19:
- 1614 022e 636C6F63 		.ascii	"clockSettings\000"
- 1614      6B536574 
- 1614      74696E67 
- 1614      7300
- 1615              	.LASF31:
- 1616 023c 43795379 		.ascii	"CySysFlashClockConfig\000"
- 1616      73466C61 
- 1616      7368436C 
- 1616      6F636B43 
- 1616      6F6E6669 
- 1617              	.LASF32:
- 1618 0252 43795379 		.ascii	"CySysFlashClockRestore\000"
- 1618      73466C61 
- 1618      7368436C 
- 1618      6F636B52 
- 1618      6573746F 
- 1619              	.LASF30:
- 1620 0269 43795379 		.ascii	"CySysFlashClockBackup\000"
- 1620      73466C61 
- 1620      7368436C 
- 1620      6F636B42 
- 1620      61636B75 
- 1621              	.LASF20:
- 1622 027f 43595F53 		.ascii	"CY_SYS_FLASH_CLOCK_BACKUP_STRUCT\000"
- 1622      59535F46 
- 1622      4C415348 
- 1622      5F434C4F 
- 1622      434B5F42 
- 1623              	.LASF4:
- 1624 02a0 6C6F6E67 		.ascii	"long int\000"
- 1624      20696E74 
- 1624      00
+ 1609      00
+ 1610              	.LASF19:
+ 1611 01f4 636C6F63 		.ascii	"clockSettings\000"
+ 1611      6B536574 
+ 1611      74696E67 
+ 1611      7300
+ 1612              	.LASF31:
+ 1613 0202 43795379 		.ascii	"CySysFlashClockConfig\000"
+ 1613      73466C61 
+ 1613      7368436C 
+ 1613      6F636B43 
+ 1613      6F6E6669 
+ 1614              	.LASF32:
+ 1615 0218 43795379 		.ascii	"CySysFlashClockRestore\000"
+ 1615      73466C61 
+ 1615      7368436C 
+ 1615      6F636B52 
+ 1615      6573746F 
+ 1616              	.LASF30:
+ 1617 022f 43795379 		.ascii	"CySysFlashClockBackup\000"
+ 1617      73466C61 
+ 1617      7368436C 
+ 1617      6F636B42 
+ 1617      61636B75 
+ 1618              	.LASF20:
+ 1619 0245 43595F53 		.ascii	"CY_SYS_FLASH_CLOCK_BACKUP_STRUCT\000"
+ 1619      59535F46 
+ 1619      4C415348 
+ 1619      5F434C4F 
+ 1619      434B5F42 
+ 1620              	.LASF4:
+ 1621 0266 6C6F6E67 		.ascii	"long int\000"
+ 1621      20696E74 
+ 1621      00
+ 1622              	.LASF36:
+ 1623 026f 443A5C49 		.ascii	"D:\\IoT\\ProximityEvents\\Cypress PSoC\\BLE_Proximi"
+ 1623      6F545C50 
+ 1623      726F7869 
+ 1623      6D697479 
+ 1623      4576656E 
+ 1624 029e 74793032 		.ascii	"ty02\\BLE_Proximity01.cydsn\000"
+ 1624      5C424C45 
+ 1624      5F50726F 
+ 1624      78696D69 
+ 1624      74793031 
  1625              	.LASF0:
- 1626 02a9 7369676E 		.ascii	"signed char\000"
+ 1626 02b9 7369676E 		.ascii	"signed char\000"
  1626      65642063 
  1626      68617200 
  1627              	.LASF28:
- 1628 02b5 43795379 		.ascii	"CySysFlashWriteRow\000"
+ 1628 02c5 43795379 		.ascii	"CySysFlashWriteRow\000"
  1628      73466C61 
  1628      73685772 
  1628      69746552 
  1628      6F7700
  1629              	.LASF38:
- 1630 02c8 43795379 		.ascii	"CySysFlashSetWaitCycles\000"
+ 1630 02d8 43795379 		.ascii	"CySysFlashSetWaitCycles\000"
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccEUFeBE.s 			page 43
+
+
  1630      73466C61 
  1630      73685365 
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccUIPJtH.s 			page 43
-
-
  1630      74576169 
  1630      74437963 
  1631              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br

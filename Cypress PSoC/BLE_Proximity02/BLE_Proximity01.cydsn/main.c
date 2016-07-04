@@ -41,7 +41,8 @@ uint16               alertBlinkDelayCount;
 uint16               advBlinkDelayCount;
 uint8                displayAlertMessage = YES;
 uint8                buttonState = BUTTON_IS_NOT_PRESSED;
-uint8                segLcdCommand;
+uint8                customDataVal;
+uint8*               customDataPtr;
 
 
 uint16 ms_count = 0;
@@ -84,21 +85,21 @@ void AppCallBack(uint32 event, void *eventParam)
     *                       General Events
     ***********************************************************/
     case CYBLE_EVT_STACK_ON: /* This event is received when the component is Started */
-        DBG_PRINTF("Bluetooth On. Device address is: ");
+        //DBG_PRINTF("Bluetooth On. Device address is: ");
         localAddr.type = 0u;
         CyBle_GetDeviceAddress(&localAddr);
         for(i = CYBLE_GAP_BD_ADDR_SIZE; i > 0u; i--)
         {
-            DBG_PRINTF("%2.2x", localAddr.bdAddr[i-1]);
+            //DBG_PRINTF("%2.2x", localAddr.bdAddr[i-1]);
         }
-        DBG_PRINTF("\r\n");
+        //DBG_PRINTF("\r\n");
 
         /* Enter discoverable mode so that the remote Client could find the device. */
         apiResult = CyBle_GappStartAdvertisement(CYBLE_ADVERTISING_FAST);
 
         if(apiResult != CYBLE_ERROR_OK)
         {
-            DBG_PRINTF("StartAdvertisement API Error: %d \r\n", apiResult);
+            //DBG_PRINTF("StartAdvertisement API Error: %d \r\n", apiResult);
         }
         break;
 
@@ -109,20 +110,20 @@ void AppCallBack(uint32 event, void *eventParam)
         */
         if(CYBLE_GAP_ADV_MODE_TO == *(uint8 *) eventParam)
         {
-            DBG_PRINTF("Advertisement timeout occurred. Advertisement will be disabled.\r\n");
+            //DBG_PRINTF("Advertisement timeout occurred. Advertisement will be disabled.\r\n");
         }
         else
         {
-            DBG_PRINTF("Timeout occurred.\r\n");
+            //DBG_PRINTF("Timeout occurred.\r\n");
         }
         break;
 
     case CYBLE_EVT_HARDWARE_ERROR:    /* This event indicates that some internal HW error has occurred. */
-        DBG_PRINTF("Hardware Error \r\n");
+        //DBG_PRINTF("Hardware Error \r\n");
         break;
 
     case CYBLE_EVT_HCI_STATUS:
-        DBG_PRINTF("HCI Error. Error code is %x.\r\n", *(uint8 *) eventParam);
+        //DBG_PRINTF("HCI Error. Error code is %x.\r\n", *(uint8 *) eventParam);
         break;
 
     /**********************************************************
@@ -134,7 +135,7 @@ void AppCallBack(uint32 event, void *eventParam)
             /* Fast and slow advertising period complete, go to low power  
              * mode (Hibernate mode) and wait for an external
              * user event to wake up the device again */
-            DBG_PRINTF("Hibernate \r\n");
+            //DBG_PRINTF("Hibernate \r\n");
             Disconnect_LED_Write(LED_ON);
             Advertising_LED_Write(LED_OFF);
             Alert_LED_Write(LED_OFF);
@@ -149,18 +150,18 @@ void AppCallBack(uint32 event, void *eventParam)
         break;
 
     case CYBLE_EVT_GAP_DEVICE_CONNECTED:
-        DBG_PRINTF("CYBLE_EVT_GAP_DEVICE_CONNECTED: %d \r\n", connectionHandle.bdHandle);
+        //DBG_PRINTF("CYBLE_EVT_GAP_DEVICE_CONNECTED: %d \r\n", connectionHandle.bdHandle);
         break;
 
     case CYBLE_EVT_GAP_DEVICE_DISCONNECTED:
-        DBG_PRINTF("CYBLE_EVT_GAP_DEVICE_DISCONNECTED\r\n");
+        //DBG_PRINTF("CYBLE_EVT_GAP_DEVICE_DISCONNECTED\r\n");
         /* Enter discoverable mode so that remote Client could find the device. */
         apiResult = CyBle_GappStartAdvertisement(CYBLE_ADVERTISING_FAST);
         connectionHandle.bdHandle = 0u;
         llsAlertTOCounter = 0;
         if(apiResult != CYBLE_ERROR_OK)
         {
-            DBG_PRINTF("StartAdvertisement API Error: %d\r\n", apiResult);
+            //DBG_PRINTF("StartAdvertisement API Error: %d\r\n", apiResult);
         }
         break;
 
@@ -170,12 +171,12 @@ void AppCallBack(uint32 event, void *eventParam)
     case CYBLE_EVT_GATT_CONNECT_IND:
         /* GATT connection was established */
         connectionHandle = *(CYBLE_CONN_HANDLE_T *) eventParam;
-        DBG_PRINTF("CYBLE_EVT_GATT_CONNECT_IND: %x\r\n", connectionHandle.attId);
+        //DBG_PRINTF("CYBLE_EVT_GATT_CONNECT_IND: %x\r\n", connectionHandle.attId);
         break;
 
     case CYBLE_EVT_GATT_DISCONNECT_IND:
         /* GATT connection was disabled */
-        DBG_PRINTF("CYBLE_EVT_GATT_DISCONNECT_IND:\r\n");
+        //DBG_PRINTF("CYBLE_EVT_GATT_DISCONNECT_IND:\r\n");
         connectionHandle.attId = 0u;
 
         /* Get the LLS Alert Level from the GATT database */
@@ -206,7 +207,15 @@ void AppCallBack(uint32 event, void *eventParam)
         if(CYBLE_CUSTOM_SERVICE_CUSTOM_CHARACTERISTIC_CHAR_HANDLE == wrReqParam->handleValPair.attrHandle)
 			{
 				/* Extract the Write value sent by the Client for CapSense Slider CCCD */
-                segLcdCommand = wrReqParam->handleValPair.value.val[CYBLE_CUSTOM_SERVICE_CUSTOM_CHARACTERISTIC_CLIENT_CHARACTERISTIC_CONFIGURATION_DESC_INDEX];
+                customDataVal = wrReqParam->handleValPair.value.val[CYBLE_CUSTOM_SERVICE_CUSTOM_CHARACTERISTIC_CLIENT_CHARACTERISTIC_CONFIGURATION_DESC_INDEX];
+                customDataPtr = wrReqParam->handleValPair.value.val;
+                uint8 data[100];
+                memset(data,0,100);
+                memcpy(data,customDataPtr,wrReqParam->handleValPair.value.len);
+                //memcpy(data,customDataPtr,wrReqParam->handleValPair.value.len);
+                //printf("Received data:\r\n");
+                printf("%s \r\n", data);
+                //UART_DEB_UartPutString("hello");
 				
             }
 
@@ -216,8 +225,8 @@ void AppCallBack(uint32 event, void *eventParam)
         * This event could be ignored by application unless it need to response
         * by error response which needs to be set in gattErrorCode field of
         * event parameter. */
-        DBG_PRINTF("CYBLE_EVT_GATTS_READ_CHAR_VAL_ACCESS_REQ: handle: %x \r\n", 
-            ((CYBLE_GATTS_CHAR_VAL_READ_REQ_T *)eventParam)->attrHandle);
+        ////DBG_PRINTF("CYBLE_EVT_GATTS_READ_CHAR_VAL_ACCESS_REQ: handle: %x \r\n", 
+        //    ((CYBLE_GATTS_CHAR_VAL_READ_REQ_T *)eventParam)->attrHandle);
         break;
 
     /**********************************************************
@@ -227,11 +236,11 @@ void AppCallBack(uint32 event, void *eventParam)
         /* Inform application that flash write is pending. Stack internal data 
         * structures are modified and require to be stored in Flash using 
         * CyBle_StoreBondingData() */
-        DBG_PRINTF("CYBLE_EVT_PENDING_FLASH_WRITE\r\n");
+        ////DBG_PRINTF("CYBLE_EVT_PENDING_FLASH_WRITE\r\n");
         break;
 
     default:
-        DBG_PRINTF("OTHER event: %lx \r\n", event);
+        ////DBG_PRINTF("OTHER event: %lx \r\n", event);
         break;
     }
 }
@@ -375,7 +384,7 @@ void HandleLeds(void)
         Disconnect_LED_Write(LED_ON);
         Advertising_LED_Write(LED_OFF);
         Alert_LED_Write(LED_OFF);
-//        if(segLcdCommand == 1)
+//        if(customDataVal == 1)
 //        {
 //           Alert_LED_Write(LED_ON);
 //           Advertising_LED_Write(LED_OFF);
@@ -394,7 +403,7 @@ void HandleLeds(void)
         {
             if(displayAlertMessage == YES)
             {
-                DBG_PRINTF("Device started alerting with \"Mild Alert\"\r\n");
+                //DBG_PRINTF("Device started alerting with \"Mild Alert\"\r\n");
                 displayAlertMessage = NO;
             }
 
@@ -418,17 +427,17 @@ void HandleLeds(void)
         {
             if(displayAlertMessage == YES)
             {
-                DBG_PRINTF("Device started alerting with \"High Alert\"\r\n");
+                //DBG_PRINTF("Device started alerting with \"High Alert\"\r\n");
                 displayAlertMessage = NO;
             }
-            printf("Setting alert\r\n");
+            //printf("Setting alert\r\n");
             alertLedState = LED_ON;
         }
         /* In case of "No Alert" turn alert LED off */
         else
         {
             displayAlertMessage = YES;
-            printf("Resetting alert\r\n");
+            //printf("Resetting alert\r\n");
             alertLedState = LED_OFF;
         }
 
@@ -460,7 +469,7 @@ void HandleLeds(void)
             Advertising_LED_Write(LED_OFF);
         }
         ///printf("llsAlertTOCounter: %x\r\n", llsAlertTOCounter);
-        printf("Writing alert value as %d\r\n",alertLedState);
+        //printf("Writing alert value as %d\r\n",alertLedState);
         Alert_LED_Write(alertLedState);
     }
 }
@@ -565,6 +574,8 @@ int main()
     isr_1_StartEx(MY_ISR);
     
     CyGlobalIntEnable;
+    
+   UART_DEB_Start();
 
     /* Turn off all of the LEDs */
     Disconnect_LED_Write(LED_OFF);
@@ -581,6 +592,7 @@ int main()
 
     /* Register the event handler for TPS specific events */
     CyBle_TpsRegisterAttrCallback(TpsServiceAppEventHandler);
+    
 
     WDT_Start();
 	
@@ -612,11 +624,11 @@ int main()
 
             if(apiResult != CYBLE_ERROR_OK)
             {
-                DBG_PRINTF("CyBle_TpssSetCharacteristicValue() error.\r\n");
+                //DBG_PRINTF("CyBle_TpssSetCharacteristicValue() error.\r\n");
             }
             
             /* Display new Tx Power Level value */
-            DBG_PRINTF("Tx power level is set to %d dBm\r\n", intTxPowerLevel);
+            //DBG_PRINTF("Tx power level is set to %d dBm\r\n", intTxPowerLevel);
         }
     }
 
@@ -627,8 +639,8 @@ int main()
 
         /* To achieve low power in the device */
         LowPowerImplementation();
-        printf("llsAlertTOCounter: %x\r\n", llsAlertTOCounter);
-        //DBG_PRINTF("llsAlertTOCounter: %x\r\n", llsAlertTOCounter);
+        //printf("llsAlertTOCounter: %x\r\n", llsAlertTOCounter);
+        ////DBG_PRINTF("llsAlertTOCounter: %x\r\n", llsAlertTOCounter);
         if((CyBle_GetState() != CYBLE_STATE_CONNECTED) && (CyBle_GetState() != CYBLE_STATE_ADVERTISING))
         {
             if(buttonState == BUTTON_IS_PRESSED)
@@ -636,7 +648,7 @@ int main()
                 /* Start advertisement */
                 if(CYBLE_ERROR_OK == CyBle_GappStartAdvertisement(CYBLE_ADVERTISING_FAST))
                 {
-                    DBG_PRINTF("Device has entered Limited Discovery mode \r\n");
+                    //DBG_PRINTF("Device has entered Limited Discovery mode \r\n");
                 }
 
                 /* Reset button state */
@@ -685,7 +697,7 @@ int main()
                     if(apiResult == CYBLE_ERROR_OK)
                     {
                         /* Display new Tx Power Level value */
-                        DBG_PRINTF("Tx power level is set to %d dBm\r\n", intTxPowerLevel);
+                        //DBG_PRINTF("Tx power level is set to %d dBm\r\n", intTxPowerLevel);
 
                         if((YES == isTpsNotificationEnabled) && (YES == isTpsNotificationPending)) 
                         {
@@ -695,11 +707,11 @@ int main()
 
                             if(apiResult == CYBLE_ERROR_OK)
                             {
-                                DBG_PRINTF("New Tx power level value was notified to the Client\r\n");
+                                //DBG_PRINTF("New Tx power level value was notified to the Client\r\n");
                             }
                             else
                             {
-                                DBG_PRINTF("Failed to send notification to the Client\r\n");
+                                //DBG_PRINTF("Failed to send notification to the Client\r\n");
                             }
                         }
                     }

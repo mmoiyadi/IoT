@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
   24:.\Generated_Source\PSoC4/UART_DEB.c ****     #include "UART_DEB_EZI2C_PVT.h"
   25:.\Generated_Source\PSoC4/UART_DEB.c **** #endif /* (UART_DEB_SCB_MODE_EZI2C_INC) */
   26:.\Generated_Source\PSoC4/UART_DEB.c **** 
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 2
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 2
 
 
   27:.\Generated_Source\PSoC4/UART_DEB.c **** #if (UART_DEB_SCB_MODE_SPI_INC || UART_DEB_SCB_MODE_UART_INC)
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
   81:.\Generated_Source\PSoC4/UART_DEB.c **** static void UART_DEB_ScbModePostEnable(void);
   82:.\Generated_Source\PSoC4/UART_DEB.c **** 
   83:.\Generated_Source\PSoC4/UART_DEB.c **** 
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 3
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 3
 
 
   84:.\Generated_Source\PSoC4/UART_DEB.c **** /*******************************************************************************
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
   42              		.loc 1 127 0
   43 0008 BD46     		mov	sp, r7
   44              		@ sp needed
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 4
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 4
 
 
   45 000a 80BD     		pop	{r7, pc}
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
   66 0004 064B     		ldr	r3, .L3
   67 0006 064A     		ldr	r2, .L3
   68 0008 1268     		ldr	r2, [r2]
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 5
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 5
 
 
   69 000a 8021     		mov	r1, #128
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  188:.\Generated_Source\PSoC4/UART_DEB.c **** *  UART_DEB_initVar - used to check initial configuration, modified
  189:.\Generated_Source\PSoC4/UART_DEB.c **** *  on first function call.
  190:.\Generated_Source\PSoC4/UART_DEB.c **** *
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 6
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 6
 
 
  191:.\Generated_Source\PSoC4/UART_DEB.c **** *******************************************************************************/
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  204:.\Generated_Source\PSoC4/UART_DEB.c **** /*******************************************************************************
  205:.\Generated_Source\PSoC4/UART_DEB.c **** * Function Name: UART_DEB_Stop
  206:.\Generated_Source\PSoC4/UART_DEB.c **** ********************************************************************************
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 7
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 7
 
 
  207:.\Generated_Source\PSoC4/UART_DEB.c **** *
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  156 0016 0022     		mov	r2, #0
  157 0018 1A60     		str	r2, [r3]
  242:.\Generated_Source\PSoC4/UART_DEB.c **** 
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 8
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 8
 
 
  243:.\Generated_Source\PSoC4/UART_DEB.c **** #if (UART_DEB_SCB_IRQ_INTERNAL)
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  187              		.cfi_def_cfa_register 7
  188 0006 7860     		str	r0, [r7, #4]
  268:.\Generated_Source\PSoC4/UART_DEB.c ****     uint32 rxFifoCtrl;
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 9
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 9
 
 
  269:.\Generated_Source\PSoC4/UART_DEB.c **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  283:.\Generated_Source\PSoC4/UART_DEB.c **** * Summary:
  284:.\Generated_Source\PSoC4/UART_DEB.c **** *  Sets level in the TX FIFO to generate a TX level interrupt.
  285:.\Generated_Source\PSoC4/UART_DEB.c **** *  When the TX FIFO has more entries than the TX FIFO level an TX level
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 10
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 10
 
 
  286:.\Generated_Source\PSoC4/UART_DEB.c **** *  interrupt request is generated.
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  262 002a 04B0     		add	sp, sp, #16
  263              		@ sp needed
  264 002c 80BD     		pop	{r7, pc}
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 11
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 11
 
 
  265              	.L17:
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  347:.\Generated_Source\PSoC4/UART_DEB.c **** * Function Name: UART_DEB_ScbModeEnableIntr
  348:.\Generated_Source\PSoC4/UART_DEB.c **** ********************************************************************************
  349:.\Generated_Source\PSoC4/UART_DEB.c **** *
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 12
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 12
 
 
  350:.\Generated_Source\PSoC4/UART_DEB.c **** * Summary:
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  382:.\Generated_Source\PSoC4/UART_DEB.c **** * Summary:
  383:.\Generated_Source\PSoC4/UART_DEB.c **** *  Calls the PostEnable function for a specific operation mode.
  384:.\Generated_Source\PSoC4/UART_DEB.c **** *
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 13
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 13
 
 
  385:.\Generated_Source\PSoC4/UART_DEB.c **** * Parameters:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  320              		.code	16
  321              		.thumb_func
  322              		.type	UART_DEB_ScbModeStop, %function
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 14
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 14
 
 
  323              	UART_DEB_ScbModeStop:
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  464:.\Generated_Source\PSoC4/UART_DEB.c **** #elif (UART_DEB_SCB_MODE_EZI2C_CONST_CFG)
  465:.\Generated_Source\PSoC4/UART_DEB.c ****     UART_DEB_EzI2CStop();
  466:.\Generated_Source\PSoC4/UART_DEB.c **** 
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 15
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 15
 
 
  467:.\Generated_Source\PSoC4/UART_DEB.c **** #elif (UART_DEB_SCB_MODE_SPI_CONST_CFG)
@@ -870,25 +870,25 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  349 0006 00000000 		.4byte	.Ldebug_abbrev0
  350 000a 04       		.byte	0x4
  351 000b 01       		.uleb128 0x1
- 352 000c BD000000 		.4byte	.LASF28
+ 352 000c C2000000 		.4byte	.LASF28
  353 0010 01       		.byte	0x1
- 354 0011 9C010000 		.4byte	.LASF29
- 355 0015 C0010000 		.4byte	.LASF30
+ 354 0011 A1010000 		.4byte	.LASF29
+ 355 0015 22020000 		.4byte	.LASF30
  356 0019 00000000 		.4byte	.Ldebug_ranges0+0
  357 001d 00000000 		.4byte	0
  358 0021 00000000 		.4byte	.Ldebug_line0
  359 0025 02       		.uleb128 0x2
  360 0026 01       		.byte	0x1
  361 0027 06       		.byte	0x6
- 362 0028 5C020000 		.4byte	.LASF0
+ 362 0028 6C020000 		.4byte	.LASF0
  363 002c 02       		.uleb128 0x2
  364 002d 01       		.byte	0x1
  365 002e 08       		.byte	0x8
- 366 002f 57000000 		.4byte	.LASF1
+ 366 002f 5C000000 		.4byte	.LASF1
  367 0033 02       		.uleb128 0x2
  368 0034 02       		.byte	0x2
  369 0035 05       		.byte	0x5
- 370 0036 2C020000 		.4byte	.LASF2
+ 370 0036 F7010000 		.4byte	.LASF2
  371 003a 02       		.uleb128 0x2
  372 003b 02       		.byte	0x2
  373 003c 07       		.byte	0x7
@@ -896,22 +896,22 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  375 0041 02       		.uleb128 0x2
  376 0042 04       		.byte	0x4
  377 0043 05       		.byte	0x5
- 378 0044 4E020000 		.4byte	.LASF4
+ 378 0044 19020000 		.4byte	.LASF4
  379 0048 02       		.uleb128 0x2
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 16
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 16
 
 
  380 0049 04       		.byte	0x4
  381 004a 07       		.byte	0x7
- 382 004b 65000000 		.4byte	.LASF5
+ 382 004b 6A000000 		.4byte	.LASF5
  383 004f 02       		.uleb128 0x2
  384 0050 08       		.byte	0x8
  385 0051 05       		.byte	0x5
- 386 0052 8E010000 		.4byte	.LASF6
+ 386 0052 93010000 		.4byte	.LASF6
  387 0056 02       		.uleb128 0x2
  388 0057 08       		.byte	0x8
  389 0058 07       		.byte	0x7
- 390 0059 6E010000 		.4byte	.LASF7
+ 390 0059 73010000 		.4byte	.LASF7
  391 005d 03       		.uleb128 0x3
  392 005e 04       		.byte	0x4
  393 005f 05       		.byte	0x5
@@ -919,29 +919,29 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  395 0064 02       		.uleb128 0x2
  396 0065 04       		.byte	0x4
  397 0066 07       		.byte	0x7
- 398 0067 52010000 		.4byte	.LASF8
+ 398 0067 57010000 		.4byte	.LASF8
  399 006b 04       		.uleb128 0x4
- 400 006c 77000000 		.4byte	.LASF9
+ 400 006c 7C000000 		.4byte	.LASF9
  401 0070 02       		.byte	0x2
  402 0071 3801     		.2byte	0x138
  403 0073 2C000000 		.4byte	0x2c
  404 0077 04       		.uleb128 0x4
- 405 0078 4B010000 		.4byte	.LASF10
+ 405 0078 50010000 		.4byte	.LASF10
  406 007c 02       		.byte	0x2
  407 007d 3A01     		.2byte	0x13a
  408 007f 48000000 		.4byte	0x48
  409 0083 02       		.uleb128 0x2
  410 0084 04       		.byte	0x4
  411 0085 04       		.byte	0x4
- 412 0086 51000000 		.4byte	.LASF11
+ 412 0086 56000000 		.4byte	.LASF11
  413 008a 02       		.uleb128 0x2
  414 008b 08       		.byte	0x8
  415 008c 04       		.byte	0x4
- 416 008d A6000000 		.4byte	.LASF12
+ 416 008d AB000000 		.4byte	.LASF12
  417 0091 02       		.uleb128 0x2
  418 0092 01       		.byte	0x1
  419 0093 08       		.byte	0x8
- 420 0094 57020000 		.4byte	.LASF13
+ 420 0094 46000000 		.4byte	.LASF13
  421 0098 04       		.uleb128 0x4
  422 0099 00000000 		.4byte	.LASF14
  423 009d 02       		.byte	0x2
@@ -952,20 +952,20 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  428 00a9 02       		.uleb128 0x2
  429 00aa 04       		.byte	0x4
  430 00ab 07       		.byte	0x7
- 431 00ac 85010000 		.4byte	.LASF15
+ 431 00ac 8A010000 		.4byte	.LASF15
  432 00b0 06       		.uleb128 0x6
  433 00b1 17000000 		.4byte	.LASF16
  434 00b5 01       		.byte	0x1
  435 00b6 66       		.byte	0x66
  436 00b7 00000000 		.4byte	.LFB2
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 17
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 17
 
 
  437 00bb 0C000000 		.4byte	.LFE2-.LFB2
  438 00bf 01       		.uleb128 0x1
  439 00c0 9C       		.byte	0x9c
  440 00c1 06       		.uleb128 0x6
- 441 00c2 AD000000 		.4byte	.LASF17
+ 441 00c2 B2000000 		.4byte	.LASF17
  442 00c6 01       		.byte	0x1
  443 00c7 92       		.byte	0x92
  444 00c8 00000000 		.4byte	.LFB3
@@ -973,7 +973,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  446 00d0 01       		.uleb128 0x1
  447 00d1 9C       		.byte	0x9c
  448 00d2 06       		.uleb128 0x6
- 449 00d3 5F010000 		.4byte	.LASF18
+ 449 00d3 64010000 		.4byte	.LASF18
  450 00d7 01       		.byte	0x1
  451 00d8 C0       		.byte	0xc0
  452 00d9 00000000 		.4byte	.LFB4
@@ -989,7 +989,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  462 00f2 01       		.uleb128 0x1
  463 00f3 9C       		.byte	0x9c
  464 00f4 07       		.uleb128 0x7
- 465 00f5 8E000000 		.4byte	.LASF20
+ 465 00f5 93000000 		.4byte	.LASF20
  466 00f9 01       		.byte	0x1
  467 00fa 0A01     		.2byte	0x10a
  468 00fc 00000000 		.4byte	.LFB6
@@ -1006,7 +1006,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  479 0117 91       		.byte	0x91
  480 0118 6C       		.sleb128 -20
  481 0119 09       		.uleb128 0x9
- 482 011a 46000000 		.4byte	.LASF23
+ 482 011a 4B000000 		.4byte	.LASF23
  483 011e 01       		.byte	0x1
  484 011f 0C01     		.2byte	0x10c
  485 0121 77000000 		.4byte	0x77
@@ -1015,10 +1015,10 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  488 0127 74       		.sleb128 -12
  489 0128 00       		.byte	0
  490 0129 07       		.uleb128 0x7
- 491 012a 36020000 		.4byte	.LASF21
+ 491 012a 01020000 		.4byte	.LASF21
  492 012e 01       		.byte	0x1
  493 012f 2801     		.2byte	0x128
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 18
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 18
 
 
  494 0131 00000000 		.4byte	.LFB7
@@ -1044,7 +1044,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  514 015c 74       		.sleb128 -12
  515 015d 00       		.byte	0
  516 015e 0A       		.uleb128 0xa
- 517 015f 15020000 		.4byte	.LASF25
+ 517 015f E0010000 		.4byte	.LASF25
  518 0163 01       		.byte	0x1
  519 0164 6801     		.2byte	0x168
  520 0166 00000000 		.4byte	.LFB8
@@ -1052,7 +1052,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  522 016e 01       		.uleb128 0x1
  523 016f 9C       		.byte	0x9c
  524 0170 0B       		.uleb128 0xb
- 525 0171 FA010000 		.4byte	.LASF26
+ 525 0171 C5010000 		.4byte	.LASF26
  526 0175 01       		.byte	0x1
  527 0176 8801     		.2byte	0x188
  528 0178 00000000 		.4byte	.LFB9
@@ -1060,7 +1060,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  530 0180 01       		.uleb128 0x1
  531 0181 9C       		.byte	0x9c
  532 0182 0B       		.uleb128 0xb
- 533 0183 68020000 		.4byte	.LASF27
+ 533 0183 78020000 		.4byte	.LASF27
  534 0187 01       		.byte	0x1
  535 0188 B401     		.2byte	0x1b4
  536 018a 00000000 		.4byte	.LFB10
@@ -1068,7 +1068,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  538 0192 01       		.uleb128 0x1
  539 0193 9C       		.byte	0x9c
  540 0194 0C       		.uleb128 0xc
- 541 0195 7D000000 		.4byte	.LASF31
+ 541 0195 82000000 		.4byte	.LASF31
  542 0199 01       		.byte	0x1
  543 019a 42       		.byte	0x42
  544 019b 6B000000 		.4byte	0x6b
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  548 01a5 00       		.byte	0
  549              		.section	.debug_abbrev,"",%progbits
  550              	.Ldebug_abbrev0:
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 19
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 19
 
 
  551 0000 01       		.uleb128 0x1
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  605 0036 05       		.uleb128 0x5
  606 0037 35       		.uleb128 0x35
  607 0038 00       		.byte	0
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 20
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 20
 
 
  608 0039 49       		.uleb128 0x49
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  662 0071 00       		.byte	0
  663 0072 03       		.uleb128 0x3
  664 0073 0E       		.uleb128 0xe
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 21
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 21
 
 
  665 0074 3A       		.uleb128 0x3a
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  719 00ab 05       		.uleb128 0x5
  720 00ac 27       		.uleb128 0x27
  721 00ad 19       		.uleb128 0x19
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 22
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 22
 
 
  722 00ae 11       		.uleb128 0x11
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  776 0058 00000000 		.4byte	0
  777 005c 00000000 		.4byte	0
  778              		.section	.debug_ranges,"",%progbits
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 23
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 23
 
 
  779              	.Ldebug_ranges0:
@@ -1375,150 +1375,152 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 1
  814      7369676E 
  814      65642069 
  814      6E7400
- 815              	.LASF23:
- 816 0046 72784669 		.ascii	"rxFifoCtrl\000"
- 816      666F4374 
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 24
+ 815              	.LASF13:
+ 816 0046 63686172 		.ascii	"char\000"
+ 816      00
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 24
 
 
- 816      726C00
- 817              	.LASF11:
- 818 0051 666C6F61 		.ascii	"float\000"
- 818      7400
- 819              	.LASF1:
- 820 0057 756E7369 		.ascii	"unsigned char\000"
- 820      676E6564 
- 820      20636861 
- 820      7200
- 821              	.LASF5:
- 822 0065 6C6F6E67 		.ascii	"long unsigned int\000"
- 822      20756E73 
- 822      69676E65 
- 822      6420696E 
- 822      7400
- 823              	.LASF9:
- 824 0077 75696E74 		.ascii	"uint8\000"
- 824      3800
- 825              	.LASF31:
- 826 007d 55415254 		.ascii	"UART_DEB_initVar\000"
- 826      5F444542 
- 826      5F696E69 
- 826      74566172 
- 826      00
- 827              	.LASF20:
- 828 008e 55415254 		.ascii	"UART_DEB_SetRxFifoLevel\000"
+ 817              	.LASF23:
+ 818 004b 72784669 		.ascii	"rxFifoCtrl\000"
+ 818      666F4374 
+ 818      726C00
+ 819              	.LASF11:
+ 820 0056 666C6F61 		.ascii	"float\000"
+ 820      7400
+ 821              	.LASF1:
+ 822 005c 756E7369 		.ascii	"unsigned char\000"
+ 822      676E6564 
+ 822      20636861 
+ 822      7200
+ 823              	.LASF5:
+ 824 006a 6C6F6E67 		.ascii	"long unsigned int\000"
+ 824      20756E73 
+ 824      69676E65 
+ 824      6420696E 
+ 824      7400
+ 825              	.LASF9:
+ 826 007c 75696E74 		.ascii	"uint8\000"
+ 826      3800
+ 827              	.LASF31:
+ 828 0082 55415254 		.ascii	"UART_DEB_initVar\000"
  828      5F444542 
- 828      5F536574 
- 828      52784669 
- 828      666F4C65 
- 829              	.LASF12:
- 830 00a6 646F7562 		.ascii	"double\000"
- 830      6C6500
- 831              	.LASF17:
- 832 00ad 55415254 		.ascii	"UART_DEB_Enable\000"
- 832      5F444542 
- 832      5F456E61 
- 832      626C6500 
- 833              	.LASF28:
- 834 00bd 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
- 834      4320342E 
- 834      392E3320 
- 834      32303135 
- 834      30333033 
- 835 00f0 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
- 835      20726576 
- 835      6973696F 
- 835      6E203232 
- 835      31323230 
- 836 0123 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 836      66756E63 
- 836      74696F6E 
- 836      2D736563 
- 836      74696F6E 
- 837              	.LASF10:
- 838 014b 75696E74 		.ascii	"uint32\000"
- 838      333200
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 25
+ 828      5F696E69 
+ 828      74566172 
+ 828      00
+ 829              	.LASF20:
+ 830 0093 55415254 		.ascii	"UART_DEB_SetRxFifoLevel\000"
+ 830      5F444542 
+ 830      5F536574 
+ 830      52784669 
+ 830      666F4C65 
+ 831              	.LASF12:
+ 832 00ab 646F7562 		.ascii	"double\000"
+ 832      6C6500
+ 833              	.LASF17:
+ 834 00b2 55415254 		.ascii	"UART_DEB_Enable\000"
+ 834      5F444542 
+ 834      5F456E61 
+ 834      626C6500 
+ 835              	.LASF28:
+ 836 00c2 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 836      4320342E 
+ 836      392E3320 
+ 836      32303135 
+ 836      30333033 
+ 837 00f5 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 837      20726576 
+ 837      6973696F 
+ 837      6E203232 
+ 837      31323230 
+ 838 0128 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 838      66756E63 
+ 838      74696F6E 
+ 838      2D736563 
+ 838      74696F6E 
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 25
 
 
- 839              	.LASF8:
- 840 0152 756E7369 		.ascii	"unsigned int\000"
- 840      676E6564 
- 840      20696E74 
- 840      00
- 841              	.LASF18:
- 842 015f 55415254 		.ascii	"UART_DEB_Start\000"
- 842      5F444542 
- 842      5F537461 
- 842      727400
- 843              	.LASF7:
- 844 016e 6C6F6E67 		.ascii	"long long unsigned int\000"
- 844      206C6F6E 
- 844      6720756E 
- 844      7369676E 
- 844      65642069 
- 845              	.LASF15:
- 846 0185 73697A65 		.ascii	"sizetype\000"
- 846      74797065 
- 846      00
- 847              	.LASF6:
- 848 018e 6C6F6E67 		.ascii	"long long int\000"
- 848      206C6F6E 
- 848      6720696E 
- 848      7400
- 849              	.LASF29:
- 850 019c 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\UART_DEB.c\000"
- 850      6E657261 
- 850      7465645F 
- 850      536F7572 
- 850      63655C50 
- 851              	.LASF30:
- 852 01c0 443A5C49 		.ascii	"D:\\IoT\\PSoC Creator\\BLE_Proximity02\\BLE_Proximi"
- 852      6F545C50 
- 852      536F4320 
- 852      43726561 
- 852      746F725C 
- 853 01ef 74793031 		.ascii	"ty01.cydsn\000"
- 853      2E637964 
- 853      736E00
- 854              	.LASF26:
- 855 01fa 55415254 		.ascii	"UART_DEB_ScbModePostEnable\000"
- 855      5F444542 
- 855      5F536362 
- 855      4D6F6465 
- 855      506F7374 
- 856              	.LASF25:
- 857 0215 55415254 		.ascii	"UART_DEB_ScbEnableIntr\000"
- 857      5F444542 
- 857      5F536362 
- 857      456E6162 
- 857      6C65496E 
- 858              	.LASF2:
- 859 022c 73686F72 		.ascii	"short int\000"
- 859      7420696E 
- 859      7400
- 860              	.LASF21:
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccCCeZbd.s 			page 26
+ 839              	.LASF10:
+ 840 0150 75696E74 		.ascii	"uint32\000"
+ 840      333200
+ 841              	.LASF8:
+ 842 0157 756E7369 		.ascii	"unsigned int\000"
+ 842      676E6564 
+ 842      20696E74 
+ 842      00
+ 843              	.LASF18:
+ 844 0164 55415254 		.ascii	"UART_DEB_Start\000"
+ 844      5F444542 
+ 844      5F537461 
+ 844      727400
+ 845              	.LASF7:
+ 846 0173 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 846      206C6F6E 
+ 846      6720756E 
+ 846      7369676E 
+ 846      65642069 
+ 847              	.LASF15:
+ 848 018a 73697A65 		.ascii	"sizetype\000"
+ 848      74797065 
+ 848      00
+ 849              	.LASF6:
+ 850 0193 6C6F6E67 		.ascii	"long long int\000"
+ 850      206C6F6E 
+ 850      6720696E 
+ 850      7400
+ 851              	.LASF29:
+ 852 01a1 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\UART_DEB.c\000"
+ 852      6E657261 
+ 852      7465645F 
+ 852      536F7572 
+ 852      63655C50 
+ 853              	.LASF26:
+ 854 01c5 55415254 		.ascii	"UART_DEB_ScbModePostEnable\000"
+ 854      5F444542 
+ 854      5F536362 
+ 854      4D6F6465 
+ 854      506F7374 
+ 855              	.LASF25:
+ 856 01e0 55415254 		.ascii	"UART_DEB_ScbEnableIntr\000"
+ 856      5F444542 
+ 856      5F536362 
+ 856      456E6162 
+ 856      6C65496E 
+ 857              	.LASF2:
+ 858 01f7 73686F72 		.ascii	"short int\000"
+ 858      7420696E 
+ 858      7400
+ 859              	.LASF21:
+ 860 0201 55415254 		.ascii	"UART_DEB_SetTxFifoLevel\000"
+ 860      5F444542 
+ 860      5F536574 
+ 860      54784669 
+ 860      666F4C65 
+ 861              	.LASF4:
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccI89q8S.s 			page 26
 
 
- 861 0236 55415254 		.ascii	"UART_DEB_SetTxFifoLevel\000"
- 861      5F444542 
- 861      5F536574 
- 861      54784669 
- 861      666F4C65 
- 862              	.LASF4:
- 863 024e 6C6F6E67 		.ascii	"long int\000"
- 863      20696E74 
- 863      00
- 864              	.LASF13:
- 865 0257 63686172 		.ascii	"char\000"
- 865      00
+ 862 0219 6C6F6E67 		.ascii	"long int\000"
+ 862      20696E74 
+ 862      00
+ 863              	.LASF30:
+ 864 0222 443A5C49 		.ascii	"D:\\IoT\\ProximityEvents\\Cypress PSoC\\BLE_Proximi"
+ 864      6F545C50 
+ 864      726F7869 
+ 864      6D697479 
+ 864      4576656E 
+ 865 0251 74793032 		.ascii	"ty02\\BLE_Proximity01.cydsn\000"
+ 865      5C424C45 
+ 865      5F50726F 
+ 865      78696D69 
+ 865      74793031 
  866              	.LASF0:
- 867 025c 7369676E 		.ascii	"signed char\000"
+ 867 026c 7369676E 		.ascii	"signed char\000"
  867      65642063 
  867      68617200 
  868              	.LASF27:
- 869 0268 55415254 		.ascii	"UART_DEB_ScbModeStop\000"
+ 869 0278 55415254 		.ascii	"UART_DEB_ScbModeStop\000"
  869      5F444542 
  869      5F536362 
  869      4D6F6465 

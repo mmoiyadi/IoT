@@ -81,19 +81,8 @@ CYBLE_STATE_T cyBle_state;
             0x00u, 0x00u, 
             0x00u, 0x00u, 
             0x00u, 0x00u, 
-            0x00u, 0x00u, 
-            0x00u, 0x00u, 
         },
         {
-            0x00u, 0x00u, 
-            0x00u, 0x00u, 
-            0x00u, 0x00u, 
-            0x00u, 0x00u, 
-            0x00u, 0x00u, 
-        },
-        {
-            0x00u, 0x00u, 
-            0x00u, 0x00u, 
             0x00u, 0x00u, 
             0x00u, 0x00u, 
             0x00u, 0x00u, 
@@ -102,17 +91,18 @@ CYBLE_STATE_T cyBle_state;
             0x00u, 0x00u, 
             0x00u, 0x00u, 
             0x00u, 0x00u, 
-            0x00u, 0x00u, 
-            0x00u, 0x00u, 
         },
         {
             0x00u, 0x00u, 
             0x00u, 0x00u, 
+            0x00u, 0x00u, 
+        },
+        {
             0x00u, 0x00u, 
             0x00u, 0x00u, 
             0x00u, 0x00u, 
         }}, 
-        0x0Au, /* CYBLE_GATT_DB_CCCD_COUNT */ 
+        0x06u, /* CYBLE_GATT_DB_CCCD_COUNT */ 
         0x05u, /* CYBLE_GAP_MAX_BONDED_DEVICE */ 
     };
 #endif /* (CYBLE_MODE_PROFILE) */
@@ -128,7 +118,7 @@ CYBLE_STATE_T cyBle_state;
     0x000Bu,    /* Handle of the Client Characteristic Configuration descriptor */
 };
     
-    static uint8 cyBle_attValues[0x50u] = {
+    static uint8 cyBle_attValues[0x22u] = {
     /* Device Name */
     (uint8)'P', (uint8)'r', (uint8)'o', (uint8)'x', (uint8)'i', (uint8)'m', (uint8)'i', (uint8)'t', (uint8)'y', (uint8)' ',
 (uint8)'R', (uint8)'e', (uint8)'p', (uint8)'o', (uint8)'r', (uint8)'t', (uint8)'e', (uint8)'r', 
@@ -149,99 +139,6 @@ CYBLE_STATE_T cyBle_state;
     0x00u, 
 
     /* Custom Characteristic */
-    0x00u, 
-
-    /* First Name */
-    
-
-    /* Last Name */
-    
-
-    /* Email Address */
-    
-
-    /* Age */
-    0x00u, 
-
-    /* Date of Birth */
-    0x00u, 0x00u, 0x00u, 0x00u, 
-
-    /* Gender */
-    0x00u, 
-
-    /* Weight */
-    0x00u, 0x00u, 
-
-    /* Height */
-    0x00u, 0x00u, 
-
-    /* VO2 Max */
-    0x00u, 
-
-    /* Heart Rate Max */
-    0x00u, 
-
-    /* Resting Heart Rate */
-    0x00u, 
-
-    /* Maximum Recommended Heart Rate */
-    0x00u, 
-
-    /* Aerobic Threshold */
-    0x00u, 
-
-    /* Anaerobic Threshold */
-    0x00u, 
-
-    /* Sport Type for Aerobic and Anaerobic Thresholds */
-    0x00u, 
-
-    /* Date of Threshold Assessment */
-    0x00u, 0x00u, 0x00u, 0x00u, 
-
-    /* Waist Circumference */
-    0x00u, 0x00u, 
-
-    /* Hip Circumference */
-    0x00u, 0x00u, 
-
-    /* Fat Burn Heart Rate Lower Limit */
-    0x00u, 
-
-    /* Fat Burn Heart Rate Upper Limit */
-    0x00u, 
-
-    /* Aerobic Heart Rate Lower Limit */
-    0x00u, 
-
-    /* Aerobic Heart Rate Upper Limit */
-    0x00u, 
-
-    /* Anaerobic Heart Rate Lower Limit */
-    0x00u, 
-
-    /* Anaerobic Heart Rate Upper Limit */
-    0x00u, 
-
-    /* Five Zone Heart Rate Limits */
-    0x00u, 0x00u, 0x00u, 0x00u, 
-
-    /* Three Zone Heart Rate Limits */
-    0x00u, 0x00u, 
-
-    /* Two Zone Heart Rate Limit */
-    0x00u, 
-
-    /* Database Change Increment */
-    0x00u, 0x00u, 0x00u, 0x00u, 
-
-    /* User Index */
-    0xFFu, 
-
-    /* User Control Point */
-    0x01u, 0x00u, 
-
-    /* Language */
     
 
 };
@@ -258,44 +155,11 @@ CYBLE_GATTS_ATT_GEN_VAL_LEN_T cyBle_attValuesLen[CYBLE_GATT_DB_ATT_VAL_COUNT] = 
     { 0x0001u, (void *)&cyBle_attValues[32] }, /* Alert Level */
     { 0x0001u, (void *)&cyBle_attValues[33] }, /* Tx Power Level */
     { 0x0002u, (void *)&cyBle_attValuesCCCD[2] }, /* Client Characteristic Configuration */
-    { 0x0001u, (void *)&cyBle_attValues[34] }, /* Custom Characteristic */
+    { 0x0000u, (void *)&cyBle_attValues[34] }, /* Custom Characteristic */
     { 0x0002u, (void *)&cyBle_attValuesCCCD[4] }, /* Client Characteristic Configuration */
-    { 0x0000u, (void *)&cyBle_attValues[35] }, /* First Name */
-    { 0x0000u, (void *)&cyBle_attValues[35] }, /* Last Name */
-    { 0x0000u, (void *)&cyBle_attValues[35] }, /* Email Address */
-    { 0x0001u, (void *)&cyBle_attValues[35] }, /* Age */
-    { 0x0004u, (void *)&cyBle_attValues[36] }, /* Date of Birth */
-    { 0x0001u, (void *)&cyBle_attValues[40] }, /* Gender */
-    { 0x0002u, (void *)&cyBle_attValues[41] }, /* Weight */
-    { 0x0002u, (void *)&cyBle_attValues[43] }, /* Height */
-    { 0x0001u, (void *)&cyBle_attValues[45] }, /* VO2 Max */
-    { 0x0001u, (void *)&cyBle_attValues[46] }, /* Heart Rate Max */
-    { 0x0001u, (void *)&cyBle_attValues[47] }, /* Resting Heart Rate */
-    { 0x0001u, (void *)&cyBle_attValues[48] }, /* Maximum Recommended Heart Rate */
-    { 0x0001u, (void *)&cyBle_attValues[49] }, /* Aerobic Threshold */
-    { 0x0001u, (void *)&cyBle_attValues[50] }, /* Anaerobic Threshold */
-    { 0x0001u, (void *)&cyBle_attValues[51] }, /* Sport Type for Aerobic and Anaerobic Thresholds */
-    { 0x0004u, (void *)&cyBle_attValues[52] }, /* Date of Threshold Assessment */
-    { 0x0002u, (void *)&cyBle_attValues[56] }, /* Waist Circumference */
-    { 0x0002u, (void *)&cyBle_attValues[58] }, /* Hip Circumference */
-    { 0x0001u, (void *)&cyBle_attValues[60] }, /* Fat Burn Heart Rate Lower Limit */
-    { 0x0001u, (void *)&cyBle_attValues[61] }, /* Fat Burn Heart Rate Upper Limit */
-    { 0x0001u, (void *)&cyBle_attValues[62] }, /* Aerobic Heart Rate Lower Limit */
-    { 0x0001u, (void *)&cyBle_attValues[63] }, /* Aerobic Heart Rate Upper Limit */
-    { 0x0001u, (void *)&cyBle_attValues[64] }, /* Anaerobic Heart Rate Lower Limit */
-    { 0x0001u, (void *)&cyBle_attValues[65] }, /* Anaerobic Heart Rate Upper Limit */
-    { 0x0004u, (void *)&cyBle_attValues[66] }, /* Five Zone Heart Rate Limits */
-    { 0x0002u, (void *)&cyBle_attValues[70] }, /* Three Zone Heart Rate Limits */
-    { 0x0001u, (void *)&cyBle_attValues[72] }, /* Two Zone Heart Rate Limit */
-    { 0x0004u, (void *)&cyBle_attValues[73] }, /* Database Change Increment */
-    { 0x0002u, (void *)&cyBle_attValuesCCCD[6] }, /* Client Characteristic Configuration */
-    { 0x0001u, (void *)&cyBle_attValues[77] }, /* User Index */
-    { 0x0002u, (void *)&cyBle_attValues[78] }, /* User Control Point */
-    { 0x0002u, (void *)&cyBle_attValuesCCCD[8] }, /* Client Characteristic Configuration */
-    { 0x0000u, (void *)&cyBle_attValues[80] }, /* Language */
 };
 
-const CYBLE_GATTS_DB_T cyBle_gattDB[0x57u] = {
+const CYBLE_GATTS_DB_T cyBle_gattDB[0x16u] = {
     { 0x0001u, 0x2800u /* Primary service                     */, 0x00000001u /*        */, 0x0007u, {{0x1800u, NULL}}                           },
     { 0x0002u, 0x2803u /* Characteristic                      */, 0x00000201u /* rd     */, 0x0003u, {{0x2A00u, NULL}}                           },
     { 0x0003u, 0x2A00u /* Device Name                         */, 0x00000201u /* rd     */, 0x0003u, {{0x0012u, (void *)&cyBle_attValuesLen[0]}} },
@@ -316,73 +180,8 @@ const CYBLE_GATTS_DB_T cyBle_gattDB[0x57u] = {
     { 0x0012u, 0x2902u /* Client Characteristic Configuration */, 0x00000A04u /* rd,wr  */, 0x0012u, {{0x0002u, (void *)&cyBle_attValuesLen[7]}} },
     { 0x0013u, 0x2800u /* Primary service                     */, 0x00000001u /*        */, 0x0016u, {{0x0000u, NULL}}                           },
     { 0x0014u, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x0016u, {{0x0000u, NULL}}                           },
-    { 0x0015u, 0x0000u /* Custom Characteristic               */, 0x00010A04u /* rd,wr  */, 0x0016u, {{0x0001u, (void *)&cyBle_attValuesLen[8]}} },
+    { 0x0015u, 0x0000u /* Custom Characteristic               */, 0x00010A04u /* rd,wr  */, 0x0016u, {{0x0000u, (void *)&cyBle_attValuesLen[8]}} },
     { 0x0016u, 0x2902u /* Client Characteristic Configuration */, 0x00010A04u /* rd,wr  */, 0x0016u, {{0x0002u, (void *)&cyBle_attValuesLen[9]}} },
-    { 0x0017u, 0x2800u /* Primary service                     */, 0x00000001u /*        */, 0x0057u, {{0x181Cu, NULL}}                           },
-    { 0x0018u, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x0019u, {{0x2A8Au, NULL}}                           },
-    { 0x0019u, 0x2A8Au /* First Name                          */, 0x00010A04u /* rd,wr  */, 0x0019u, {{0x0000u, (void *)&cyBle_attValuesLen[10]}} },
-    { 0x001Au, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x001Bu, {{0x2A90u, NULL}}                           },
-    { 0x001Bu, 0x2A90u /* Last Name                           */, 0x00010A04u /* rd,wr  */, 0x001Bu, {{0x0000u, (void *)&cyBle_attValuesLen[11]}} },
-    { 0x001Cu, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x001Du, {{0x2A87u, NULL}}                           },
-    { 0x001Du, 0x2A87u /* Email Address                       */, 0x00010A04u /* rd,wr  */, 0x001Du, {{0x0000u, (void *)&cyBle_attValuesLen[12]}} },
-    { 0x001Eu, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x001Fu, {{0x2A80u, NULL}}                           },
-    { 0x001Fu, 0x2A80u /* Age                                 */, 0x00010A04u /* rd,wr  */, 0x001Fu, {{0x0001u, (void *)&cyBle_attValuesLen[13]}} },
-    { 0x0020u, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x0021u, {{0x2A85u, NULL}}                           },
-    { 0x0021u, 0x2A85u /* Date of Birth                       */, 0x00010A04u /* rd,wr  */, 0x0021u, {{0x0004u, (void *)&cyBle_attValuesLen[14]}} },
-    { 0x0022u, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x0023u, {{0x2A8Cu, NULL}}                           },
-    { 0x0023u, 0x2A8Cu /* Gender                              */, 0x00010A04u /* rd,wr  */, 0x0023u, {{0x0001u, (void *)&cyBle_attValuesLen[15]}} },
-    { 0x0024u, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x0025u, {{0x2A98u, NULL}}                           },
-    { 0x0025u, 0x2A98u /* Weight                              */, 0x00010A04u /* rd,wr  */, 0x0025u, {{0x0002u, (void *)&cyBle_attValuesLen[16]}} },
-    { 0x0026u, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x0027u, {{0x2A8Eu, NULL}}                           },
-    { 0x0027u, 0x2A8Eu /* Height                              */, 0x00010A04u /* rd,wr  */, 0x0027u, {{0x0002u, (void *)&cyBle_attValuesLen[17]}} },
-    { 0x0028u, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x0029u, {{0x2A96u, NULL}}                           },
-    { 0x0029u, 0x2A96u /* VO2 Max                             */, 0x00010A04u /* rd,wr  */, 0x0029u, {{0x0001u, (void *)&cyBle_attValuesLen[18]}} },
-    { 0x002Au, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x002Bu, {{0x2A8Du, NULL}}                           },
-    { 0x002Bu, 0x2A8Du /* Heart Rate Max                      */, 0x00010A04u /* rd,wr  */, 0x002Bu, {{0x0001u, (void *)&cyBle_attValuesLen[19]}} },
-    { 0x002Cu, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x002Du, {{0x2A92u, NULL}}                           },
-    { 0x002Du, 0x2A92u /* Resting Heart Rate                  */, 0x00010A04u /* rd,wr  */, 0x002Du, {{0x0001u, (void *)&cyBle_attValuesLen[20]}} },
-    { 0x002Eu, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x002Fu, {{0x2A91u, NULL}}                           },
-    { 0x002Fu, 0x2A91u /* Maximum Recommended Heart Rate      */, 0x00010A04u /* rd,wr  */, 0x002Fu, {{0x0001u, (void *)&cyBle_attValuesLen[21]}} },
-    { 0x0030u, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x0031u, {{0x2A7Fu, NULL}}                           },
-    { 0x0031u, 0x2A7Fu /* Aerobic Threshold                   */, 0x00010A04u /* rd,wr  */, 0x0031u, {{0x0001u, (void *)&cyBle_attValuesLen[22]}} },
-    { 0x0032u, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x0033u, {{0x2A83u, NULL}}                           },
-    { 0x0033u, 0x2A83u /* Anaerobic Threshold                 */, 0x00010A04u /* rd,wr  */, 0x0033u, {{0x0001u, (void *)&cyBle_attValuesLen[23]}} },
-    { 0x0034u, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x0035u, {{0x2A93u, NULL}}                           },
-    { 0x0035u, 0x2A93u /* Sport Type for Aerobic and Anaerobi */, 0x00010A04u /* rd,wr  */, 0x0035u, {{0x0001u, (void *)&cyBle_attValuesLen[24]}} },
-    { 0x0036u, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x0037u, {{0x2A86u, NULL}}                           },
-    { 0x0037u, 0x2A86u /* Date of Threshold Assessment        */, 0x00010A04u /* rd,wr  */, 0x0037u, {{0x0004u, (void *)&cyBle_attValuesLen[25]}} },
-    { 0x0038u, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x0039u, {{0x2A97u, NULL}}                           },
-    { 0x0039u, 0x2A97u /* Waist Circumference                 */, 0x00010A04u /* rd,wr  */, 0x0039u, {{0x0002u, (void *)&cyBle_attValuesLen[26]}} },
-    { 0x003Au, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x003Bu, {{0x2A8Fu, NULL}}                           },
-    { 0x003Bu, 0x2A8Fu /* Hip Circumference                   */, 0x00010A04u /* rd,wr  */, 0x003Bu, {{0x0002u, (void *)&cyBle_attValuesLen[27]}} },
-    { 0x003Cu, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x003Du, {{0x2A88u, NULL}}                           },
-    { 0x003Du, 0x2A88u /* Fat Burn Heart Rate Lower Limit     */, 0x00010A04u /* rd,wr  */, 0x003Du, {{0x0001u, (void *)&cyBle_attValuesLen[28]}} },
-    { 0x003Eu, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x003Fu, {{0x2A89u, NULL}}                           },
-    { 0x003Fu, 0x2A89u /* Fat Burn Heart Rate Upper Limit     */, 0x00010A04u /* rd,wr  */, 0x003Fu, {{0x0001u, (void *)&cyBle_attValuesLen[29]}} },
-    { 0x0040u, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x0041u, {{0x2A7Eu, NULL}}                           },
-    { 0x0041u, 0x2A7Eu /* Aerobic Heart Rate Lower Limit      */, 0x00010A04u /* rd,wr  */, 0x0041u, {{0x0001u, (void *)&cyBle_attValuesLen[30]}} },
-    { 0x0042u, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x0043u, {{0x2A84u, NULL}}                           },
-    { 0x0043u, 0x2A84u /* Aerobic Heart Rate Upper Limit      */, 0x00010A04u /* rd,wr  */, 0x0043u, {{0x0001u, (void *)&cyBle_attValuesLen[31]}} },
-    { 0x0044u, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x0045u, {{0x2A81u, NULL}}                           },
-    { 0x0045u, 0x2A81u /* Anaerobic Heart Rate Lower Limit    */, 0x00010A04u /* rd,wr  */, 0x0045u, {{0x0001u, (void *)&cyBle_attValuesLen[32]}} },
-    { 0x0046u, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x0047u, {{0x2A82u, NULL}}                           },
-    { 0x0047u, 0x2A82u /* Anaerobic Heart Rate Upper Limit    */, 0x00010A04u /* rd,wr  */, 0x0047u, {{0x0001u, (void *)&cyBle_attValuesLen[33]}} },
-    { 0x0048u, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x0049u, {{0x2A8Bu, NULL}}                           },
-    { 0x0049u, 0x2A8Bu /* Five Zone Heart Rate Limits         */, 0x00010A04u /* rd,wr  */, 0x0049u, {{0x0004u, (void *)&cyBle_attValuesLen[34]}} },
-    { 0x004Au, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x004Bu, {{0x2A94u, NULL}}                           },
-    { 0x004Bu, 0x2A94u /* Three Zone Heart Rate Limits        */, 0x00010A04u /* rd,wr  */, 0x004Bu, {{0x0002u, (void *)&cyBle_attValuesLen[35]}} },
-    { 0x004Cu, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x004Du, {{0x2A95u, NULL}}                           },
-    { 0x004Du, 0x2A95u /* Two Zone Heart Rate Limit           */, 0x00010A04u /* rd,wr  */, 0x004Du, {{0x0001u, (void *)&cyBle_attValuesLen[36]}} },
-    { 0x004Eu, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x0050u, {{0x2A99u, NULL}}                           },
-    { 0x004Fu, 0x2A99u /* Database Change Increment           */, 0x00000A04u /* rd,wr  */, 0x0050u, {{0x0004u, (void *)&cyBle_attValuesLen[37]}} },
-    { 0x0050u, 0x2902u /* Client Characteristic Configuration */, 0x00000A04u /* rd,wr  */, 0x0050u, {{0x0002u, (void *)&cyBle_attValuesLen[38]}} },
-    { 0x0051u, 0x2803u /* Characteristic                      */, 0x00000201u /* rd     */, 0x0052u, {{0x2A9Au, NULL}}                           },
-    { 0x0052u, 0x2A9Au /* User Index                          */, 0x00000201u /* rd     */, 0x0052u, {{0x0001u, (void *)&cyBle_attValuesLen[39]}} },
-    { 0x0053u, 0x2803u /* Characteristic                      */, 0x00002801u /* wr,ind */, 0x0055u, {{0x2A9Fu, NULL}}                           },
-    { 0x0054u, 0x2A9Fu /* User Control Point                  */, 0x00002802u /* wr,ind */, 0x0055u, {{0x0002u, (void *)&cyBle_attValuesLen[40]}} },
-    { 0x0055u, 0x2902u /* Client Characteristic Configuration */, 0x00000A04u /* rd,wr  */, 0x0055u, {{0x0002u, (void *)&cyBle_attValuesLen[41]}} },
-    { 0x0056u, 0x2803u /* Characteristic                      */, 0x00000A01u /* rd,wr  */, 0x0057u, {{0x2AA2u, NULL}}                           },
-    { 0x0057u, 0x2AA2u /* Language                            */, 0x00010A04u /* rd,wr  */, 0x0057u, {{0x0000u, (void *)&cyBle_attValuesLen[42]}} },
 };
 
 

@@ -1,13 +1,13 @@
 ;
 ; File Name: cydeviceiar_trm.inc
 ; 
-; PSoC Creator  3.3 CP2
+; PSoC Creator  3.3 CP3
 ;
 ; Description:
 ; This file provides all of the address values for the entire PSoC device.
 ;
 ;-------------------------------------------------------------------------------
-; Copyright (c) 2007-2015 Cypress Semiconductor.  All rights reserved.
+; Copyright (c) 2007-2016 Cypress Semiconductor.  All rights reserved.
 ; You may use this file only in accordance with the license, terms, conditions, 
 ; disclaimers, and limitations in the end user license agreement accompanying 
 ; the software package with which this file was provided.
@@ -436,6 +436,10 @@
 #define CYFLD_SFLASH_VCTAT_ENABLE__OFFSET 0x00000006
 #define CYFLD_SFLASH_VCTAT_ENABLE__SIZE 0x00000001
 #define CYREG_SFLASH_P_VCTAT 0x0ffff1bd
+#define CYREG_SFLASH_IMO_TRIM_USBMODE_24 0x0ffff1be
+#define CYFLD_SFLASH_TRIM_24__OFFSET 0x00000000
+#define CYFLD_SFLASH_TRIM_24__SIZE 0x00000008
+#define CYREG_SFLASH_IMO_TRIM_USBMODE_48 0x0ffff1bf
 #define CYREG_SFLASH_IMO_MAXF0 0x0ffff1c0
 #define CYFLD_SFLASH_MAXFREQ__OFFSET 0x00000000
 #define CYFLD_SFLASH_MAXFREQ__SIZE 0x00000006
@@ -1496,10 +1500,6 @@
 #define CYFLD_GPIO_PRT_PORT_VTRIP_SEL__SIZE 0x00000001
 #define CYFLD_GPIO_PRT_PORT_SLOW__OFFSET 0x00000019
 #define CYFLD_GPIO_PRT_PORT_SLOW__SIZE 0x00000001
-#define CYVAL_GPIO_PRT_PORT_SLOW_PORT_SLEW_CTL_0 0x00000000
-#define CYVAL_GPIO_PRT_PORT_SLOW_PORT_SLEW_CTL_1 0x00000001
-#define CYVAL_GPIO_PRT_PORT_SLOW_PORT_SLEW_CTL_2 0x00000002
-#define CYVAL_GPIO_PRT_PORT_SLOW_PORT_SLEW_CTL_3 0x00000003
 #define CYFLD_GPIO_PRT_PORT_IB_MODE_SEL__OFFSET 0x0000001e
 #define CYFLD_GPIO_PRT_PORT_IB_MODE_SEL__SIZE 0x00000002
 #define CYREG_GPIO_PRT0_INTR_CFG 0x4004000c

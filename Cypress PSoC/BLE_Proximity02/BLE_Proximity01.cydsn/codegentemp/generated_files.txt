@@ -59,8 +59,6 @@
   <file name="D:\IoT\ProximityEvents\Cypress PSoC\BLE_Proximity02\BLE_Proximity01.cydsn\codegentemp\CYBLE_eventHandler.h" value="NONE;CYBLE" />
   <file name="D:\IoT\ProximityEvents\Cypress PSoC\BLE_Proximity02\BLE_Proximity01.cydsn\codegentemp\CYBLE_custom.h" value="NONE;CYBLE" />
   <file name="D:\IoT\ProximityEvents\Cypress PSoC\BLE_Proximity02\BLE_Proximity01.cydsn\codegentemp\CYBLE_custom.c" value="ARM_C_FILE;CYBLE" />
-  <file name="D:\IoT\ProximityEvents\Cypress PSoC\BLE_Proximity02\BLE_Proximity01.cydsn\codegentemp\CYBLE_uds.c" value="ARM_C_FILE;CYBLE" />
-  <file name="D:\IoT\ProximityEvents\Cypress PSoC\BLE_Proximity02\BLE_Proximity01.cydsn\codegentemp\CYBLE_uds.h" value="NONE;CYBLE" />
   <file name="D:\IoT\ProximityEvents\Cypress PSoC\BLE_Proximity02\BLE_Proximity01.cydsn\codegentemp\Advertising_LED.c" value="ARM_C_FILE;Advertising_LED" />
   <file name="D:\IoT\ProximityEvents\Cypress PSoC\BLE_Proximity02\BLE_Proximity01.cydsn\codegentemp\Advertising_LED.h" value="NONE;Advertising_LED" />
   <file name="D:\IoT\ProximityEvents\Cypress PSoC\BLE_Proximity02\BLE_Proximity01.cydsn\codegentemp\Advertising_LED_aliases.h" value="NONE;Advertising_LED" />

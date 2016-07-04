@@ -1,6 +1,6 @@
 -- Project:   BLE_Proximity01
--- Generated: 05/02/2016 17:14:13
--- PSoC Creator  3.3 CP2
+-- Generated: 06/22/2016 15:08:41
+-- PSoC Creator  3.3 CP3
 
 ENTITY BLE_Proximity01 IS
     PORT(
@@ -412,8 +412,8 @@ ARCHITECTURE __DEFAULT__ OF BLE_Proximity01 IS
             miso_s : OUT std_ulogic;
             select_s : IN std_ulogic;
             sclk_s : IN std_ulogic;
-            scl : INOUT std_ulogic;
-            sda : INOUT std_ulogic;
+            scl : IN std_ulogic;
+            sda : IN std_ulogic;
             rx_req : OUT std_ulogic;
             tx_req : OUT std_ulogic);
     END COMPONENT;
@@ -1279,6 +1279,8 @@ BEGIN
             rx_req => Net_80);
 
     \CYBLE:cy_m0s8_ble\:p4blecell
+        GENERIC MAP(
+            cy_registers => "")
         PORT MAP(
             interrupt => \CYBLE:Net_15\,
             rfctrl_extpa_en => Net_86);

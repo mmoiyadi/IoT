@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 1
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccGhAy4h.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 1
   23:.\Generated_Source\PSoC4/UART_DEB_PM.c **** #endif /* (UART_DEB_SCB_MODE_I2C_INC) */
   24:.\Generated_Source\PSoC4/UART_DEB_PM.c **** 
   25:.\Generated_Source\PSoC4/UART_DEB_PM.c **** #if(UART_DEB_SCB_MODE_EZI2C_INC)
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 2
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccGhAy4h.s 			page 2
 
 
   26:.\Generated_Source\PSoC4/UART_DEB_PM.c ****     #include "UART_DEB_EZI2C_PVT.h"
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 1
   72:.\Generated_Source\PSoC4/UART_DEB_PM.c ****     {
   73:.\Generated_Source\PSoC4/UART_DEB_PM.c ****         if(UART_DEB_SCB_MODE_I2C_RUNTM_CFG)
   74:.\Generated_Source\PSoC4/UART_DEB_PM.c ****         {
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 3
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccGhAy4h.s 			page 3
 
 
   75:.\Generated_Source\PSoC4/UART_DEB_PM.c ****             UART_DEB_I2CSaveConfig();
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 1
   47 000e 064B     		ldr	r3, .L3+4
   48 0010 1A70     		strb	r2, [r3]
  123:.\Generated_Source\PSoC4/UART_DEB_PM.c **** 
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 4
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccGhAy4h.s 			page 4
 
 
  124:.\Generated_Source\PSoC4/UART_DEB_PM.c ****         if(0u != UART_DEB_backup.enableState)
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 1
  150:.\Generated_Source\PSoC4/UART_DEB_PM.c **** *
  151:.\Generated_Source\PSoC4/UART_DEB_PM.c **** *******************************************************************************/
  152:.\Generated_Source\PSoC4/UART_DEB_PM.c **** void UART_DEB_Wakeup(void)
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 5
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccGhAy4h.s 			page 5
 
 
  153:.\Generated_Source\PSoC4/UART_DEB_PM.c **** {
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 1
  199:.\Generated_Source\PSoC4/UART_DEB_PM.c **** 
  200:.\Generated_Source\PSoC4/UART_DEB_PM.c ****     #elif (UART_DEB_SCB_MODE_UART_CONST_CFG && UART_DEB_UART_WAKE_ENABLE_CONST)
  201:.\Generated_Source\PSoC4/UART_DEB_PM.c ****         UART_DEB_UartRestoreConfig();
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 6
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccGhAy4h.s 			page 6
 
 
  202:.\Generated_Source\PSoC4/UART_DEB_PM.c **** 
@@ -345,34 +345,34 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 1
  114 000b 01       		.uleb128 0x1
  115 000c 81000000 		.4byte	.LASF19
  116 0010 01       		.byte	0x1
- 117 0011 57010000 		.4byte	.LASF20
- 118 0015 1D010000 		.4byte	.LASF21
+ 117 0011 1D010000 		.4byte	.LASF20
+ 118 0015 44010000 		.4byte	.LASF21
  119 0019 00000000 		.4byte	.Ldebug_ranges0+0
  120 001d 00000000 		.4byte	0
  121 0021 00000000 		.4byte	.Ldebug_line0
  122 0025 02       		.uleb128 0x2
  123 0026 01       		.byte	0x1
  124 0027 06       		.byte	0x6
- 125 0028 BE010000 		.4byte	.LASF0
+ 125 0028 CE010000 		.4byte	.LASF0
  126 002c 02       		.uleb128 0x2
  127 002d 01       		.byte	0x1
  128 002e 08       		.byte	0x8
  129 002f 0F010000 		.4byte	.LASF1
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 7
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccGhAy4h.s 			page 7
 
 
  130 0033 02       		.uleb128 0x2
  131 0034 02       		.byte	0x2
  132 0035 05       		.byte	0x5
- 133 0036 E0010000 		.4byte	.LASF2
+ 133 0036 F0010000 		.4byte	.LASF2
  134 003a 02       		.uleb128 0x2
  135 003b 02       		.byte	0x2
  136 003c 07       		.byte	0x7
- 137 003d AB010000 		.4byte	.LASF3
+ 137 003d BB010000 		.4byte	.LASF3
  138 0041 02       		.uleb128 0x2
  139 0042 04       		.byte	0x4
  140 0043 05       		.byte	0x5
- 141 0044 7E010000 		.4byte	.LASF4
+ 141 0044 8E010000 		.4byte	.LASF4
  142 0048 02       		.uleb128 0x2
  143 0049 04       		.byte	0x4
  144 004a 07       		.byte	0x7
@@ -406,19 +406,19 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 1
  172 0083 02       		.uleb128 0x2
  173 0084 04       		.byte	0x4
  174 0085 04       		.byte	0x4
- 175 0086 DA010000 		.4byte	.LASF11
+ 175 0086 EA010000 		.4byte	.LASF11
  176 008a 02       		.uleb128 0x2
  177 008b 08       		.byte	0x8
  178 008c 04       		.byte	0x4
- 179 008d 9E010000 		.4byte	.LASF12
+ 179 008d AE010000 		.4byte	.LASF12
  180 0091 02       		.uleb128 0x2
  181 0092 01       		.byte	0x1
  182 0093 08       		.byte	0x8
  183 0094 7C000000 		.4byte	.LASF13
  184 0098 04       		.uleb128 0x4
- 185 0099 A5010000 		.4byte	.LASF14
+ 185 0099 B5010000 		.4byte	.LASF14
  186 009d 02       		.byte	0x2
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 8
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccGhAy4h.s 			page 8
 
 
  187 009e E401     		.2byte	0x1e4
@@ -428,7 +428,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 1
  191 00a9 02       		.uleb128 0x2
  192 00aa 04       		.byte	0x4
  193 00ab 07       		.byte	0x7
- 194 00ac EA010000 		.4byte	.LASF15
+ 194 00ac FA010000 		.4byte	.LASF15
  195 00b0 06       		.uleb128 0x6
  196 00b1 01       		.byte	0x1
  197 00b2 03       		.byte	0x3
@@ -442,7 +442,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 1
  205 00c3 00       		.byte	0
  206 00c4 00       		.byte	0
  207 00c5 08       		.uleb128 0x8
- 208 00c6 87010000 		.4byte	.LASF16
+ 208 00c6 97010000 		.4byte	.LASF16
  209 00ca 03       		.byte	0x3
  210 00cb 5E       		.byte	0x5e
  211 00cc B0000000 		.4byte	0xb0
@@ -463,7 +463,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 1
  226 00f0 01       		.uleb128 0x1
  227 00f1 9C       		.byte	0x9c
  228 00f2 0A       		.uleb128 0xa
- 229 00f3 CA010000 		.4byte	.LASF23
+ 229 00f3 DA010000 		.4byte	.LASF23
  230 00f7 01       		.byte	0x1
  231 00f8 2C       		.byte	0x2c
  232 00f9 C5000000 		.4byte	0xc5
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 1
  241 0002 01       		.byte	0x1
  242 0003 25       		.uleb128 0x25
  243 0004 0E       		.uleb128 0xe
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 9
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccGhAy4h.s 			page 9
 
 
  244 0005 13       		.uleb128 0x13
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 1
  298 003b 00       		.byte	0
  299 003c 00       		.byte	0
  300 003d 06       		.uleb128 0x6
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 10
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccGhAy4h.s 			page 10
 
 
  301 003e 13       		.uleb128 0x13
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 1
  355 0074 01       		.uleb128 0x1
  356 0075 12       		.uleb128 0x12
  357 0076 06       		.uleb128 0x6
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 11
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccGhAy4h.s 			page 11
 
 
  358 0077 40       		.uleb128 0x40
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 1
  408 0000 6C6F6E67 		.ascii	"long long int\000"
  408      206C6F6E 
  408      6720696E 
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 12
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccGhAy4h.s 			page 12
 
 
  408      7400
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 1
  430      74696F6E 
  430      2D736563 
  430      74696F6E 
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 13
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccGhAy4h.s 			page 13
 
 
  431              	.LASF1:
@@ -726,64 +726,66 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 1
  432      676E6564 
  432      20636861 
  432      7200
- 433              	.LASF21:
- 434 011d 443A5C49 		.ascii	"D:\\IoT\\PSoC Creator\\BLE_Proximity02\\BLE_Proximi"
- 434      6F545C50 
- 434      536F4320 
- 434      43726561 
- 434      746F725C 
- 435 014c 74793031 		.ascii	"ty01.cydsn\000"
- 435      2E637964 
- 435      736E00
- 436              	.LASF20:
- 437 0157 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\UART_DEB_PM.c\000"
- 437      6E657261 
- 437      7465645F 
- 437      536F7572 
- 437      63655C50 
+ 433              	.LASF20:
+ 434 011d 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\UART_DEB_PM.c\000"
+ 434      6E657261 
+ 434      7465645F 
+ 434      536F7572 
+ 434      63655C50 
+ 435              	.LASF21:
+ 436 0144 443A5C49 		.ascii	"D:\\IoT\\ProximityEvents\\Cypress PSoC\\BLE_Proximi"
+ 436      6F545C50 
+ 436      726F7869 
+ 436      6D697479 
+ 436      4576656E 
+ 437 0173 74793032 		.ascii	"ty02\\BLE_Proximity01.cydsn\000"
+ 437      5C424C45 
+ 437      5F50726F 
+ 437      78696D69 
+ 437      74793031 
  438              	.LASF4:
- 439 017e 6C6F6E67 		.ascii	"long int\000"
+ 439 018e 6C6F6E67 		.ascii	"long int\000"
  439      20696E74 
  439      00
  440              	.LASF16:
- 441 0187 55415254 		.ascii	"UART_DEB_BACKUP_STRUCT\000"
+ 441 0197 55415254 		.ascii	"UART_DEB_BACKUP_STRUCT\000"
  441      5F444542 
  441      5F424143 
  441      4B55505F 
  441      53545255 
  442              	.LASF12:
- 443 019e 646F7562 		.ascii	"double\000"
+ 443 01ae 646F7562 		.ascii	"double\000"
  443      6C6500
  444              	.LASF14:
- 445 01a5 72656733 		.ascii	"reg32\000"
+ 445 01b5 72656733 		.ascii	"reg32\000"
  445      3200
  446              	.LASF3:
- 447 01ab 73686F72 		.ascii	"short unsigned int\000"
+ 447 01bb 73686F72 		.ascii	"short unsigned int\000"
  447      7420756E 
  447      7369676E 
  447      65642069 
  447      6E7400
  448              	.LASF0:
- 449 01be 7369676E 		.ascii	"signed char\000"
+ 449 01ce 7369676E 		.ascii	"signed char\000"
  449      65642063 
  449      68617200 
  450              	.LASF23:
- 451 01ca 55415254 		.ascii	"UART_DEB_backup\000"
+ 451 01da 55415254 		.ascii	"UART_DEB_backup\000"
  451      5F444542 
  451      5F626163 
  451      6B757000 
  452              	.LASF11:
- 453 01da 666C6F61 		.ascii	"float\000"
+ 453 01ea 666C6F61 		.ascii	"float\000"
  453      7400
  454              	.LASF2:
- 455 01e0 73686F72 		.ascii	"short int\000"
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccGhAy4h.s 			page 14
+
+
+ 455 01f0 73686F72 		.ascii	"short int\000"
  455      7420696E 
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccv43IaD.s 			page 14
-
-
  455      7400
  456              	.LASF15:
- 457 01ea 73697A65 		.ascii	"sizetype\000"
+ 457 01fa 73697A65 		.ascii	"sizetype\000"
  457      74797065 
  457      00
  458              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br

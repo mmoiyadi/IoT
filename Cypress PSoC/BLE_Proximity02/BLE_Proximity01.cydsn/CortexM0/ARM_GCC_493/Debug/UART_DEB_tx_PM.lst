@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 1
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccXuicIW.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 1
   24:.\Generated_Source\PSoC4/UART_DEB_tx_PM.c **** * Function Name: UART_DEB_tx_Sleep
   25:.\Generated_Source\PSoC4/UART_DEB_tx_PM.c **** ****************************************************************************//**
   26:.\Generated_Source\PSoC4/UART_DEB_tx_PM.c **** *
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 2
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccXuicIW.s 			page 2
 
 
   27:.\Generated_Source\PSoC4/UART_DEB_tx_PM.c **** * \brief Stores the pin configuration and prepares the pin for entering chip 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 1
   49              	.L2:
   50 0010 08010440 		.word	1074004232
   51 0014 00000000 		.word	UART_DEB_tx_backup
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 3
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccXuicIW.s 			page 3
 
 
   52              		.cfi_endproc
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 1
   92:.\Generated_Source\PSoC4/UART_DEB_tx_PM.c ****     #if defined(CYIPBLOCK_m0s8ioss_VERSION) && defined(UART_DEB_tx__SIO)
   93:.\Generated_Source\PSoC4/UART_DEB_tx_PM.c ****         UART_DEB_tx_SIO_REG = UART_DEB_tx_backup.sioState;
   94:.\Generated_Source\PSoC4/UART_DEB_tx_PM.c ****     #endif
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 4
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccXuicIW.s 			page 4
 
 
   95:.\Generated_Source\PSoC4/UART_DEB_tx_PM.c **** }
@@ -208,14 +208,14 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 1
   99 000c 93000000 		.4byte	.LASF20
  100 0010 01       		.byte	0x1
  101 0011 2F000000 		.4byte	.LASF21
- 102 0015 7B010000 		.4byte	.LASF22
+ 102 0015 96010000 		.4byte	.LASF22
  103 0019 00000000 		.4byte	.Ldebug_ranges0+0
  104 001d 00000000 		.4byte	0
  105 0021 00000000 		.4byte	.Ldebug_line0
  106 0025 02       		.uleb128 0x2
  107 0026 01       		.byte	0x1
  108 0027 06       		.byte	0x6
- 109 0028 D0010000 		.4byte	.LASF0
+ 109 0028 E0010000 		.4byte	.LASF0
  110 002c 02       		.uleb128 0x2
  111 002d 01       		.byte	0x1
  112 002e 08       		.byte	0x8
@@ -223,7 +223,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 1
  114 0033 02       		.uleb128 0x2
  115 0034 02       		.byte	0x2
  116 0035 05       		.byte	0x5
- 117 0036 B5010000 		.4byte	.LASF2
+ 117 0036 7B010000 		.4byte	.LASF2
  118 003a 02       		.uleb128 0x2
  119 003b 02       		.byte	0x2
  120 003c 07       		.byte	0x7
@@ -231,14 +231,14 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 1
  122 0041 02       		.uleb128 0x2
  123 0042 04       		.byte	0x4
  124 0043 05       		.byte	0x5
- 125 0044 C7010000 		.4byte	.LASF4
+ 125 0044 8D010000 		.4byte	.LASF4
  126 0048 02       		.uleb128 0x2
  127 0049 04       		.byte	0x4
  128 004a 07       		.byte	0x7
  129 004b 67000000 		.4byte	.LASF5
  130 004f 02       		.uleb128 0x2
  131 0050 08       		.byte	0x8
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 5
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccXuicIW.s 			page 5
 
 
  132 0051 05       		.byte	0x5
@@ -285,7 +285,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 1
  173 00a0 21       		.byte	0x21
  174 00a1 CA000000 		.4byte	0xca
  175 00a5 07       		.uleb128 0x7
- 176 00a6 BF010000 		.4byte	.LASF14
+ 176 00a6 85010000 		.4byte	.LASF14
  177 00aa 03       		.byte	0x3
  178 00ab 23       		.byte	0x23
  179 00ac 6B000000 		.4byte	0x6b
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 1
  186 00bc 04       		.byte	0x4
  187 00bd 07       		.uleb128 0x7
  188 00be 06000000 		.4byte	.LASF16
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 6
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccXuicIW.s 			page 6
 
 
  189 00c2 03       		.byte	0x3
@@ -312,7 +312,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 1
  197 00d0 26       		.byte	0x26
  198 00d1 9D000000 		.4byte	0x9d
  199 00d5 09       		.uleb128 0x9
- 200 00d6 EF010000 		.4byte	.LASF18
+ 200 00d6 FF010000 		.4byte	.LASF18
  201 00da 01       		.byte	0x1
  202 00db 2C       		.byte	0x2c
  203 00dc 00000000 		.4byte	.LFB0
@@ -320,7 +320,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 1
  205 00e4 01       		.uleb128 0x1
  206 00e5 9C       		.byte	0x9c
  207 00e6 09       		.uleb128 0x9
- 208 00e7 DC010000 		.4byte	.LASF19
+ 208 00e7 EC010000 		.4byte	.LASF19
  209 00eb 01       		.byte	0x1
  210 00ec 50       		.byte	0x50
  211 00ed 00000000 		.4byte	.LFB1
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 1
  243 0011 00       		.byte	0
  244 0012 00       		.byte	0
  245 0013 02       		.uleb128 0x2
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 7
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccXuicIW.s 			page 7
 
 
  246 0014 24       		.uleb128 0x24
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 1
  300 004a 07       		.uleb128 0x7
  301 004b 0D       		.uleb128 0xd
  302 004c 00       		.byte	0
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 8
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccXuicIW.s 			page 8
 
 
  303 004d 03       		.uleb128 0x3
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 1
  357 0084 0B       		.uleb128 0xb
  358 0085 3B       		.uleb128 0x3b
  359 0086 0B       		.uleb128 0xb
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 9
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccXuicIW.s 			page 9
 
 
  360 0087 49       		.uleb128 0x49
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 1
  401      6E657261 
  401      7465645F 
  401      536F7572 
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 10
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccXuicIW.s 			page 10
 
 
  401      63655C50 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 1
  421      5F74785F 
  421      6261636B 
  421      757000
-ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 11
+ARM GAS  C:\Users\mohammed\AppData\Local\Temp\ccXuicIW.s 			page 11
 
 
  422              	.LASF15:
@@ -613,38 +613,40 @@ ARM GAS  C:\Users\mohammed\AppData\Local\Temp\cc9UuNrP.s 			page 1
  426              	.LASF11:
  427 0176 63686172 		.ascii	"char\000"
  427      00
- 428              	.LASF22:
- 429 017b 443A5C49 		.ascii	"D:\\IoT\\PSoC Creator\\BLE_Proximity02\\BLE_Proximi"
- 429      6F545C50 
- 429      536F4320 
- 429      43726561 
- 429      746F725C 
- 430 01aa 74793031 		.ascii	"ty01.cydsn\000"
- 430      2E637964 
- 430      736E00
- 431              	.LASF2:
- 432 01b5 73686F72 		.ascii	"short int\000"
- 432      7420696E 
- 432      7400
- 433              	.LASF14:
- 434 01bf 70635374 		.ascii	"pcState\000"
- 434      61746500 
- 435              	.LASF4:
- 436 01c7 6C6F6E67 		.ascii	"long int\000"
- 436      20696E74 
- 436      00
+ 428              	.LASF2:
+ 429 017b 73686F72 		.ascii	"short int\000"
+ 429      7420696E 
+ 429      7400
+ 430              	.LASF14:
+ 431 0185 70635374 		.ascii	"pcState\000"
+ 431      61746500 
+ 432              	.LASF4:
+ 433 018d 6C6F6E67 		.ascii	"long int\000"
+ 433      20696E74 
+ 433      00
+ 434              	.LASF22:
+ 435 0196 443A5C49 		.ascii	"D:\\IoT\\ProximityEvents\\Cypress PSoC\\BLE_Proximi"
+ 435      6F545C50 
+ 435      726F7869 
+ 435      6D697479 
+ 435      4576656E 
+ 436 01c5 74793032 		.ascii	"ty02\\BLE_Proximity01.cydsn\000"
+ 436      5C424C45 
+ 436      5F50726F 
+ 436      78696D69 
+ 436      74793031 
  437              	.LASF0:
- 438 01d0 7369676E 		.ascii	"signed char\000"
+ 438 01e0 7369676E 		.ascii	"signed char\000"
  438      65642063 
  438      68617200 
  439              	.LASF19:
- 440 01dc 55415254 		.ascii	"UART_DEB_tx_Wakeup\000"
+ 440 01ec 55415254 		.ascii	"UART_DEB_tx_Wakeup\000"
  440      5F444542 
  440      5F74785F 
  440      57616B65 
  440      757000
  441              	.LASF18:
- 442 01ef 55415254 		.ascii	"UART_DEB_tx_Sleep\000"
+ 442 01ff 55415254 		.ascii	"UART_DEB_tx_Sleep\000"
  442      5F444542 
  442      5F74785F 
  442      536C6565 
